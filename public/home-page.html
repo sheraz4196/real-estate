@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Page</title>
+    <style>
+      .bg-img-for-header {
+        background-image: url(/img/Abstract\ Design.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-color: rgba(26, 26, 26, 1);
+      }
+      .bg-color-all {
+        background-color: rgba(20, 20, 20, 1);
+      }
+      .bg-for-logo-section {
+        background: rgba(26, 26, 26, 1);
+      }
+      .bg-for-second-btn {
+        background-color: rgba(112, 59, 247, 1);
+      }
+      .text-size {
+        font-size: 9px;
+        line-height: 1rem;
+      }
+      .text-color {
+        color: rgba(255, 255, 255, 1);
+      }
+      .text-underline-color {
+        text-decoration: underline rgba(255, 255, 255, 0.9);
+        text-decoration-thickness: 1px;
+      }
+      .text-color-addition-info {
+        color: rgba(153, 153, 153, 1);
+      }
+      .border-for-button {
+        border: 1px solid rgba(38, 38, 38, 1);
+      }
+    </style>
+  </head>
+  <body>
+    <!-- head for home page -->
+    <div
+      class="bg-img-for-header text-white flex items-center justify-between p-3 mb-[.5px]"
+    >
+      <div class="text-size text-color font-medium">
+        ✨Discover Your Dream Property with Estatein
+        <button class="text-underline-color pl-1">Learn More</button>
+      </div>
+      <button class="rounded-full bg-slate-400/40 text-center p-[2px]">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+          class="w-5 h-5"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+            d="M6 18L18 6M6 6l12 12"
+          />
+        </svg>
+      </button>
+    </div>
+    <!-- logo and burger button -->
+    <div class="flex justify-between items-center p-3 bg-for-logo-section">
+      <div class="flex gap-2 items-center">
+        <img src="/img/Symbol.png" alt="Symbol logo" />
+        <p class="text-color text-base font-medium">Estatein</p>
+      </div>
+      <div>
+        <img
+          src="/img/mobile-hamburger-button.png"
+          alt="mobile-hamburger-button"
+        />
+      </div>
+    </div>
+    <!-- section one for real estate -->
+    <div class="p-3 pt-6 bg-color-all flex flex-col gap-16">
+      <!-- first div -->
+      <div class="relative">
+        <img src="/img/Container.png" alt="Container" />
+        <img
+          src="/img/Sub Container.png"
+          alt="sub Container"
+          class="absolute top-40"
+        />
+      </div>
+      <!-- second div -->
+      <div class="flex flex-col gap-10">
+        <!-- for information -->
+        <div class="flex flex-col gap-4">
+          <p class="font-semibold text-2xl text-color">
+            Discover Your Dream Property with Estatein
+          </p>
+          <p class="font-medium text-sm text-color-addition-info">
+            Your journey to finding the perfect property begins here. Explore
+            our listings to find the home that matches your dreams.
+          </p>
+        </div>
+        <!-- second div for buttons -->
+        <div class="font-normal text-color text-sm flex flex-col gap-3">
+          <button class="py-3 border-for-button rounded-xl">Learn More</button>
+          <button class="bg-for-second-btn py-3 rounded-xl">
+            Browse Properties
+          </button>
+        </div>
+        <!-- third div additional info for clients -->
+        <div class="flex flex-col gap-2">
+          <!-- in two section -->
+          <div class="grid grid-cols-2 gap-2">
+            <div
+              class="border-for-button col-span-1 p-4 text-center rounded-lg"
+            >
+              <p class="font-bold text-xl text-color">200+</p>
+              <p class="font-medium text-xs text-color-addition-info">
+                Happy Customers
+              </p>
+            </div>
+            <div
+              class="border-for-button p-4 text-center rounded-lg col-span-1"
+            >
+              <p class="font-bold text-xl text-color">10k+</p>
+              <p class="font-medium text-xs text-color-addition-info">
+                Properties For Clients
+              </p>
+            </div>
+          </div>
+          <!-- in one section -->
+          <div>
+            <div class="border-for-button p-4 text-center rounded-lg">
+              <p class="font-bold text-xl text-color">16+</p>
+              <p class="font-medium text-xs text-color-addition-info">
+                Years of Experience
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
