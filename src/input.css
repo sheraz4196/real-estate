@@ -1,3 +1,80 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.font-urbanist {
+  font-family: "Urbanist";
+}
+
+.bg-img-for-header {
+  background-image: url(/public/assets/homepage/abstract-design.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: rgba(26, 26, 26, 1);
+}
+
+.bg-color-all {
+  background-color: rgba(20, 20, 20, 1);
+}
+
+.bg-for-logo-section {
+  background: rgba(26, 26, 26, 1);
+}
+
+.bg-for-second-btn {
+  background-color: rgba(112, 59, 247, 1);
+}
+
+.text-size {
+  font-size: 9px;
+  line-height: 1rem;
+}
+
+.text-color {
+  color: rgba(255, 255, 255, 1);
+}
+
+.bg-for-hamburgerbutton {
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.text-underline-white {
+  text-decoration: underline rgba(255, 255, 255, 0.9);
+  text-decoration-thickness: 1px;
+}
+
+.text-underline-color-for-pricing-read-more {
+  text-decoration: underline rgba(153, 153, 153, 1);
+  text-decoration-thickness: 1px;
+}
+
+.text-color-addition-info {
+  color: rgba(153, 153, 153, 1);
+}
+
+.border-button {
+  border: 1px solid rgba(38, 38, 38, 1);
+}
+
+.border-top {
+  border-top: 1px solid rgba(38, 38, 38, 1);
+}
+
+.border-top-bottom {
+  border-top: 1px solid rgba(38, 38, 38, 1);
+  border-bottom: 1px solid rgba(38, 38, 38, 1);
+}
+
+.border-bottom {
+  border-bottom: 1px solid rgba(38, 38, 38, 1);
+}
+
+.border-color {
+  border-color: rgba(38, 38, 38, 1);
+}
+
+.border-outline {
+  outline: 4px solid rgba(26, 26, 26, 1);
+}
