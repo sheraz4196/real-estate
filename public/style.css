@@ -1055,6 +1055,10 @@ video {
   color: rgba(255, 255, 255, 1);
 }
 
+.bg-for-hamburgerbutton {
+  background-color: rgba(255, 255, 255, 1);
+}
+
 .text-underline-color {
   -webkit-text-decoration: underline rgba(255, 255, 255, 0.9);
           text-decoration: underline rgba(255, 255, 255, 0.9);
