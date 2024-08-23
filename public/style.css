@@ -878,6 +878,10 @@ video {
   padding: 0.5rem;
 }
 
+.p-2\.5 {
+  padding: 0.625rem;
+}
+
 .p-3 {
   padding: 0.75rem;
 }
@@ -888,10 +892,6 @@ video {
 
 .p-6 {
   padding: 1.5rem;
-}
-
-.p-\[10px\] {
-  padding: 10px;
 }
 
 .px-3 {
@@ -907,6 +907,11 @@ video {
 .px-5 {
   padding-left: 1.25rem;
   padding-right: 1.25rem;
+}
+
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 .py-3 {
@@ -927,11 +932,6 @@ video {
 .py-\[8px\] {
   padding-top: 8px;
   padding-bottom: 8px;
-}
-
-.py-2 {
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
 }
 
 .pl-1 {
@@ -1216,11 +1216,6 @@ video {
     text-align: start;
   }
 
-  .sm\:text-2xl {
-    font-size: 1.5rem;
-    line-height: 2rem;
-  }
-
   .sm\:text-3xl {
     font-size: 1.875rem;
     line-height: 2.25rem;
@@ -1450,11 +1445,6 @@ video {
   .\32xl\:text-3xl {
     font-size: 1.875rem;
     line-height: 2.25rem;
-  }
-
-  .\32xl\:text-4xl {
-    font-size: 2.25rem;
-    line-height: 2.5rem;
   }
 
   .\32xl\:text-5xl {
