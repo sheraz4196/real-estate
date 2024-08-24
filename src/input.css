@@ -54,8 +54,21 @@
   color: rgba(153, 153, 153, 1);
 }
 
+.linear-colors {
+  background: linear-gradient(134.79deg, #703BF7 -0.01%, rgba(112, 59, 247, 0) 9.65%);
+}
+
 .border-button {
   border: 1px solid rgba(38, 38, 38, 1);
+}
+
+.border-linear {
+  border: 1px solid;
+  border-image: linear-gradient(to bottom right, rgba(112, 59, 247, 1) 12.99%, rgba(38, 38, 38, 1) 39%) 1;
+}
+
+.border-card-left {
+  border-left: 1px solid rgba(112, 59, 247, 1);
 }
 
 .border-top {
