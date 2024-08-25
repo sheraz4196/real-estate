@@ -1387,6 +1387,10 @@ video {
 }
 
 @media (min-width: 1024px) {
+  .lg\:grid-flow-col {
+    grid-auto-flow: column;
+  }
+
   .lg\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
@@ -1471,6 +1475,10 @@ video {
 
   .xl\:w-\[79\%\] {
     width: 79%;
+  }
+
+  .xl\:grid-flow-col {
+    grid-auto-flow: column;
   }
 
   .xl\:grid-cols-2 {
