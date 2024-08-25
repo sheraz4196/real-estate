@@ -105,3 +105,22 @@
 .h-boxes {
   height: 80%;
 }
+
+.spparow-bg-color {
+  background: rgba(112, 59, 247, 1);
+  border-radius: 43px;
+}
+
+.rounded {
+  border-radius: 100px;
+}
+
+
+.btn-bg-color {
+  background-color: rgba(112, 59, 247, 1);
+}
+
+.postion-members {
+  position: absolute;
+  bottom: -20px;
+}
