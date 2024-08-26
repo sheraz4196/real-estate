@@ -73,6 +73,10 @@
   z-index: -1;
 }
 
+.bg-linear-gradient {
+  background: linear-gradient(95.93deg, #262626 -14.82%, rgba(38, 38, 38, 0) 40.46%);
+}
+
 .border-card-left {
   border-left: 1px solid rgba(112, 59, 247, 1);
 }
