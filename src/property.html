@@ -7,88 +7,111 @@
     <title>property page</title>
   </head>
   <body class="bg-color-all font-urbanist">
-    <div class="main-container">
+    <div class="main-container flex flex-col gap-56">
       <!-- banner header and first two sections -->
-      <div class="border-bottom">
-        <!-- header and banner -->
-        <div class="grid grid-rows-2 gap-0.5">
-          <!-- head for home page -->
-          <section
-            class="bg-img-for-header text-white grid grid-flow-col justify-items-end items-center p-3"
-          >
-            <div class="text-size text-color font-medium">
-              <p class="inline-block sm:text-lg 2xl:text-2xl">
-                ✨Discover Your Dream Property with Estatein
-              </p>
+      <div class="border-bottom relative flex flex-col gap-10">
+        <div>
+          <!-- header and banner -->
+          <div class="grid grid-rows-2 gap-0.5">
+            <!-- head for home page -->
+            <section
+              class="bg-img-for-header text-white grid grid-flow-col justify-items-end items-center p-3"
+            >
+              <div class="text-size text-color font-medium">
+                <p class="inline-block sm:text-lg 2xl:text-2xl">
+                  ✨Discover Your Dream Property with Estatein
+                </p>
+                <a
+                  href="#"
+                  class="text-underline-white pl-1 2xl:pl-2 sm:text-lg 2xl:text-2xl"
+                >
+                  Learn More
+                </a>
+              </div>
+              <a href="#" class="rounded-full bg-slate-400/40 p-1">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  class="w-5 h-5 sm:w-8 sm:h-8"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1.5"
+                    d="M6 18L18 6M6 6l12 12"
+                  />
+                </svg>
+              </a>
+            </section>
+            <!-- logo and burger button -->
+            <section
+              class="flex justify-between items-center p-3 sm:px-8 xl:px-10 2xl:px-20 bg-for-logo-section"
+            >
+              <img
+                src="/public/assets/propertypage/main-logo.png"
+                alt="main-logo"
+              />
+              <ul
+                class="sm:flex gap-6 2xl:gap-10 text-color sm:text-base 2xl:text-2xl items-center no-underline hidden"
+              >
+                <li>
+                  <a href="#">Home</a>
+                </li>
+                <li>
+                  <a href="#">About Us</a>
+                </li>
+                <li class="rounded-lg py-3 px-5 border-button bg-color-all">
+                  <a href="#">Properties</a>
+                </li>
+                <li><a href="#">Services</a></li>
+              </ul>
               <a
                 href="#"
-                class="text-underline-white pl-1 2xl:pl-2 sm:text-lg 2xl:text-2xl"
+                class="hidden sm:inline-block rounded-lg py-3 text-base 2xl:text-2xl text-white px-5 border-button bg-color-all"
               >
-                Learn More
+                Contact Us
               </a>
-            </div>
-            <a href="#" class="rounded-full bg-slate-400/40 p-1">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-                class="w-5 h-5 sm:w-8 sm:h-8"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="1.5"
-                  d="M6 18L18 6M6 6l12 12"
-                />
-              </svg>
-            </a>
-          </section>
-          <!-- logo and burger button -->
-          <section
-            class="flex justify-between items-center p-3 sm:px-8 xl:px-10 2xl:px-20 bg-for-logo-section"
-          >
-            <img src="/public/assets/aboutpage/main-logo.png" alt="main-logo" />
-            <ul
-              class="sm:flex gap-6 2xl:gap-10 text-color sm:text-base 2xl:text-2xl items-center no-underline hidden"
-            >
-              <li>
-                <a href="#">Home</a>
-              </li>
-              <li>
-                <a href="#">About Us</a>
-              </li>
-              <li class="rounded-lg py-3 px-5 border-button bg-color-all">
-                <a href="#">Properties</a>
-              </li>
-              <li><a href="#">Services</a></li>
-            </ul>
-            <a
-              href="#"
-              class="hidden sm:inline-block rounded-lg py-3 text-base 2xl:text-2xl text-white px-5 border-button bg-color-all"
-            >
-              Contact Us
-            </a>
-            <div class="inline-block sm:hidden">
-              <svg
-                width="50"
-                height="50"
-                viewBox="0 0 50 50"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <!-- First line -->
-                <rect x="10" y="14" width="30" height="4" rx="2" fill="white" />
-                <!-- Second line -->
-                <rect x="10" y="23" width="30" height="4" rx="2" fill="white" />
-                <!-- Third line, shorter and aligned to the right -->
-                <rect x="25" y="32" width="15" height="4" rx="2" fill="white" />
-              </svg>
-            </div>
-          </section>
-        </div>
-        <!-- first two sections -->
-        <div class="flex lg:inline-block flex-col gap-10 lg:relative">
+              <div class="inline-block sm:hidden">
+                <svg
+                  width="50"
+                  height="50"
+                  viewBox="0 0 50 50"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <!-- First line -->
+                  <rect
+                    x="10"
+                    y="14"
+                    width="30"
+                    height="4"
+                    rx="2"
+                    fill="white"
+                  />
+                  <!-- Second line -->
+                  <rect
+                    x="10"
+                    y="23"
+                    width="30"
+                    height="4"
+                    rx="2"
+                    fill="white"
+                  />
+                  <!-- Third line, shorter and aligned to the right -->
+                  <rect
+                    x="25"
+                    y="32"
+                    width="15"
+                    height="4"
+                    rx="2"
+                    fill="white"
+                  />
+                </svg>
+              </div>
+            </section>
+          </div>
           <!-- section first -->
           <section
             class="px-3 py-12 sm:py-32 2xl:py-52 sm:pl-10 sm:pr-64 2xl:px-20 bg-linear-gradient flex flex-col gap-3 2xl:gap-4"
@@ -107,133 +130,450 @@
               your life. With categories to suit every dreamer, your journey
             </div>
           </section>
-          <!-- section second -->
-          <section
-            class="w-full px-3 sm:px-10 2xl:px-40 lg:absolute -bottom-32 flex flex-col gap-5 lg:gap-0 lg:items-center"
-          >
-            <!-- search bar solo div -->
-            <div
-              class="w-full lg:w-4/5 col-span-3 border-button border-outline-two p-2.5 sm:p-4 2xl:p-5 flex items-center justify-between rounded-xl lg:rounded-b-none px-3.5 py-5 gap-5 bg-color-all"
-            >
-              <p
-                class="text-color-addition-info font-medium text-base sm:text-xl 2xl:text-2xl"
-              >
-                Search For A Property
-              </p>
-              <a
-                href="#"
-                class="btn-bg-color py-3.5 px-5 rounded-lg sm:flex items-center gap-1.5 2xl:gap-2 text-sm 2xl:text-lg"
-                ><img
-                  src="/public/assets/aboutpage/search-icon.png"
-                  alt="search-icon"
-                />
-                <p class="text-color hidden sm:inline-block">Find Property</p>
-              </a>
-            </div>
-            <!-- 4 bars -->
-            <div
-              class="w-full bg-for-logo-section rounded-xl flex flex-col lg:grid grid-cols-4 gap-5 lg:pt-3.5 p-2.5"
-            >
-              <!-- first -->
-              <div
-                class="flex justify-between gap-5 2xl:gap-12 items-center rounded-lg py-3 px-3.5 2xl:p-5 border-button text-color bg-color-all"
-              >
-                <div class="flex flex-row gap-2">
-                  <div>
-                    <img
-                      src="/public/assets/aboutpage/location.png"
-                      alt="location"
-                      class=""
-                    />
-                  </div>
-                  <div class="border-left"></div>
-                  <div class="text-color-additional-info text-sm 2xl:text-lg">
-                    Location
-                  </div>
-                </div>
-                <div class="p-1 bg-for-logo-section rounded-full">
-                  <img
-                    src="/public/assets/aboutpage/bottom-arrow-icon.png"
-                    alt="bottom-arrow-icon"
-                  />
-                </div>
-              </div>
-              <!-- second -->
-              <div
-                class="flex justify-between gap-5 2xl:gap-12 items-center rounded-lg py-3 px-3.5 2xl:p-5 border-button text-color bg-color-all"
-              >
-                <div class="flex flex-row gap-2">
-                  <div>
-                    <img
-                      src="/public/assets/aboutpage/location.png"
-                      alt="location"
-                      class=""
-                    />
-                  </div>
-                  <div class="border-left"></div>
-                  <div class="text-color-additional-info text-sm 2xl:text-lg">
-                    Location
-                  </div>
-                </div>
-                <div class="p-1 bg-for-logo-section rounded-full">
-                  <img
-                    src="/public/assets/aboutpage/bottom-arrow-icon.png"
-                    alt="bottom-arrow-icon"
-                  />
-                </div>
-              </div>
-              <!-- third -->
-              <div
-                class="flex justify-between gap-5 2xl:gap-12 items-center rounded-lg py-3 px-3.5 2xl:p-5 border-button text-color bg-color-all"
-              >
-                <div class="flex flex-row gap-2">
-                  <div>
-                    <img
-                      src="/public/assets/aboutpage/location.png"
-                      alt="location"
-                      class=""
-                    />
-                  </div>
-                  <div class="border-left"></div>
-                  <div class="text-color-additional-info text-sm 2xl:text-lg">
-                    Location
-                  </div>
-                </div>
-                <div class="p-1 bg-for-logo-section rounded-full">
-                  <img
-                    src="/public/assets/aboutpage/bottom-arrow-icon.png"
-                    alt="bottom-arrow-icon"
-                  />
-                </div>
-              </div>
-              <!-- fourth -->
-              <div
-                class="flex justify-between gap-5 2xl:gap-12 items-center rounded-lg py-3 px-3.5 2xl:p-5 border-button text-color bg-color-all"
-              >
-                <div class="flex flex-row gap-2">
-                  <div>
-                    <img
-                      src="/public/assets/aboutpage/location.png"
-                      alt="location"
-                      class=""
-                    />
-                  </div>
-                  <div class="border-left"></div>
-                  <div class="text-color-additional-info text-sm 2xl:text-lg">
-                    Location
-                  </div>
-                </div>
-                <div class="p-1 bg-for-logo-section rounded-full">
-                  <img
-                    src="/public/assets/aboutpage/bottom-arrow-icon.png"
-                    alt="bottom-arrow-icon"
-                  />
-                </div>
-              </div>
-            </div>
-          </section>
         </div>
+        <!-- section second -->
+        <section
+          class="w-full px-3 sm:px-10 2xl:px-40 lg:absolute -bottom-32 flex flex-col gap-5 lg:gap-0 lg:items-center"
+        >
+          <!-- search bar solo div -->
+          <div
+            class="w-full lg:w-4/5 col-span-3 border-button border-outline-two p-2.5 sm:p-4 2xl:p-5 flex items-center justify-between rounded-xl lg:rounded-b-none px-3.5 py-5 gap-5 bg-color-all"
+          >
+            <p
+              class="text-color-addition-info font-medium text-base sm:text-xl 2xl:text-2xl"
+            >
+              Search For A Property
+            </p>
+            <a
+              href="#"
+              class="btn-bg-color py-3.5 px-5 rounded-lg sm:flex items-center gap-1.5 2xl:gap-2 text-sm 2xl:text-lg"
+              ><img
+                src="/public/assets/propertypage/search-icon.png"
+                alt="search-icon"
+              />
+              <p class="text-color hidden sm:inline-block">Find Property</p>
+            </a>
+          </div>
+          <!-- 4 bars -->
+          <div
+            class="w-full bg-for-logo-section rounded-xl flex flex-col lg:grid grid-cols-5 gap-5 lg:pt-3.5 p-2.5"
+          >
+            <!-- first -->
+            <div
+              class="flex justify-between gap-5 2xl:gap-12 items-center rounded-lg py-3 px-3.5 2xl:p-5 border-button text-color bg-color-all"
+            >
+              <div class="flex flex-row gap-2">
+                <div>
+                  <img
+                    src="/public/assets/propertypage/location.png"
+                    alt="location"
+                  />
+                </div>
+                <div class="border-left"></div>
+                <div class="text-color-addition-info text-sm 2xl:text-lg">
+                  Location
+                </div>
+              </div>
+              <div class="p-1 bg-for-logo-section rounded-full">
+                <img
+                  src="/public/assets/propertypage/bottom-arrow-icon.png"
+                  alt="bottom-arrow-icon"
+                />
+              </div>
+            </div>
+            <!-- second -->
+            <div
+              class="flex justify-between gap-5 2xl:gap-12 items-center rounded-lg py-3 px-3.5 2xl:p-5 border-button text-color bg-color-all"
+            >
+              <div class="flex flex-row gap-2">
+                <div>
+                  <img
+                    src="/public/assets/propertypage/property.png"
+                    alt="property"
+                  />
+                </div>
+                <div class="border-left"></div>
+                <div class="text-color-addition-info text-sm 2xl:text-lg">
+                  Property Type
+                </div>
+              </div>
+              <div class="p-1 bg-for-logo-section rounded-full">
+                <img
+                  src="/public/assets/propertypage/bottom-arrow-icon.png"
+                  alt="bottom-arrow-icon"
+                />
+              </div>
+            </div>
+            <!-- third -->
+            <div
+              class="flex justify-between gap-5 2xl:gap-12 items-center rounded-lg py-3 px-3.5 2xl:p-5 border-button text-color bg-color-all"
+            >
+              <div class="flex flex-row gap-2">
+                <div>
+                  <img
+                    src="/public/assets/propertypage/price-range.png"
+                    alt="price"
+                  />
+                </div>
+                <div class="border-left"></div>
+                <div class="text-color-addition-info text-sm 2xl:text-lg">
+                  Pricing Range
+                </div>
+              </div>
+              <div class="p-1 bg-for-logo-section rounded-full">
+                <img
+                  src="/public/assets/propertypage/bottom-arrow-icon.png"
+                  alt="bottom-arrow-icon"
+                />
+              </div>
+            </div>
+            <!-- fourth -->
+            <div
+              class="flex justify-between gap-5 2xl:gap-12 items-center rounded-lg py-3 px-3.5 2xl:p-5 border-button text-color bg-color-all"
+            >
+              <div class="flex flex-row gap-2">
+                <div>
+                  <img
+                    src="/public/assets/propertypage/property-size.png"
+                    alt="property-size"
+                  />
+                </div>
+                <div class="border-left"></div>
+                <div class="text-color-addition-info text-sm 2xl:text-lg">
+                  Property Size
+                </div>
+              </div>
+              <div class="p-1 bg-for-logo-section rounded-full">
+                <img
+                  src="/public/assets/propertypage/bottom-arrow-icon.png"
+                  alt="bottom-arrow-icon"
+                />
+              </div>
+            </div>
+            <!-- fifth -->
+            <div
+              class="flex justify-between gap-5 2xl:gap-12 items-center rounded-lg py-3 px-3.5 2xl:p-5 border-button text-color bg-color-all"
+            >
+              <div class="flex flex-row gap-2">
+                <div>
+                  <img
+                    src="/public/assets/propertypage/calender-icon.png"
+                    alt="calender-icon"
+                  />
+                </div>
+                <div class="border-left"></div>
+                <div class="text-color-addition-info text-sm 2xl:text-lg">
+                  Build Year
+                </div>
+              </div>
+              <div class="p-1 bg-for-logo-section rounded-full">
+                <img
+                  src="/public/assets/propertypage/bottom-arrow-icon.png"
+                  alt="bottom-arrow-icon"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
       </div>
+      <!-- footer -->
+      <footer class="flex gap-10 flex-col">
+        <!-- first div for footer paragraph button background images etc -->
+        <div
+          class="relative border-top-bottom grid items-center sm:h-64 overflow-hidden"
+        >
+          <!-- for bg images -->
+          <div class="relative">
+            <div>
+              <img
+                src="/public/assets/propertypage/footer-bg-for-small-devices.png"
+                alt="footer-bg-img-small-devices"
+                class="inline-block sm:hidden"
+              />
+              <img
+                src="/public/assets/propertypage/footer-bg-abstraction-left.png"
+                alt="footer-left-for-large-screens"
+                class="hidden sm:inline-block"
+              />
+            </div>
+            <div class="absolute right-0 bottom-0">
+              <img
+                src="/public/assets/propertypage/footer-bg-for-small-devices-right.png"
+                alt="small-devices-responsive-images"
+                class="inline-block sm:hidden"
+              />
+              <img
+                src="/public/assets/propertypage/footer-bg-abstraction-right.png"
+                alt=""
+                class="hidden sm:inline-block"
+              />
+            </div>
+          </div>
+          <!-- for texts and button-->
+          <div
+            class="absolute px-3 xl:px-10 2xl:px-20 flex flex-col gap-7 xl:flex-row justify-between sm:items-end xl:items-center"
+          >
+            <!-- text -->
+            <div class="grid gap-2">
+              <p class="text-color font-semibold text-3xl">
+                Start Your Real Estate Journey Today
+              </p>
+              <p class="font-medium text-sm text-color-addition-info">
+                Your dream property is just a click away. Whether you're looking
+                for a new home, a strategic investment, or expert real estate
+                advice, Estatein is here to assist you every step of the way.
+                Take the first step towards your real estate goals and explore
+                our available properties or get in touch with our team for
+                personalized assistance.
+              </p>
+            </div>
+            <!-- button -->
+            <button
+              class="font-medium text-sm text-color text-center py-[14px] px-5 bg-for-second-btn rounded-lg sm:w-64"
+            >
+              Explore Properties
+            </button>
+          </div>
+        </div>
+        <!-- second div for footer in which every info of every section -->
+        <div
+          class="px-3 xl:px-10 2xl:px-20 flex flex-col lg:flex-row gap-12 xl:gap-28 2xl:gap-28"
+        >
+          <!-- for logo and email bar -->
+          <div class="grid sm:flex flex-col sm:items-start gap-6">
+            <!-- logo -->
+            <img
+              src="/public/assets/propertypage/main-logo.png"
+              alt="main-logo"
+            />
+            <!-- mail bar -->
+            <div
+              class="flex items-center gap-2 justify-between rounded-lg bg-color-all border-button py-3 px-5"
+            >
+              <div class="flex items-center gap-3">
+                <img
+                  src="/public/assets/propertypage/mail-icon.png"
+                  alt="mail-icon"
+                />
+                <input
+                  type="text"
+                  placeholder="Enter Your Email"
+                  name="name"
+                  id="name"
+                  class="text-color-addition-info bg-color-all outline-none"
+                />
+              </div>
+              <div>
+                <img
+                  src="/public/assets/propertypage/send-icon.png"
+                  alt="send-icon"
+                />
+              </div>
+            </div>
+          </div>
+          <!-- for info every section -->
+          <div class="grid grid-cols-2 sm:hidden sm:gap-10 xl:gap-14">
+            <!-- first -->
+            <div class="flex flex-col sm:flex-row gap-3 sm:gap-10 xl:gap-14">
+              <div class="flex flex-col gap-3 pr-3 sm:pr-0">
+                <div class="flex flex-col gap-4">
+                  <div class="font-medium text-base text-color-addition-info">
+                    Home
+                  </div>
+                  <div
+                    class="flex flex-col gap-2 text-white font-medium text-sm"
+                  >
+                    <p>Hero Section</p>
+                    <p>Features</p>
+                    <p>Properties</p>
+                    <p>Testimonials</p>
+                    <p>FAQ’s</p>
+                  </div>
+                </div>
+                <div
+                  class="border-t border-solid border-color relative left-0 w-auto pr-3 sm:hidden"
+                ></div>
+              </div>
+              <div
+                class="flex flex-col sm:flex-row gap-3 sm:gap-10 xl:gap-14 border-r border-solid border-color sm:border-none pr-3 sm:pr-0"
+              >
+                <div class="flex flex-col gap-4">
+                  <div class="font-medium text-base text-color-addition-info">
+                    Properties
+                  </div>
+                  <div
+                    class="flex flex-col gap-2 text-white font-medium text-sm"
+                  >
+                    <p>Portfolio</p>
+                    <p>Categories</p>
+                  </div>
+                </div>
+                <div
+                  class="border-t border-solid border-color relative left-0 w-auto sm:hidden"
+                ></div>
+                <div class="flex flex-col gap-4">
+                  <div class="font-medium text-base text-color-addition-info">
+                    Contact Us
+                  </div>
+                  <div
+                    class="flex flex-col gap-2 text-white font-medium text-sm"
+                  >
+                    <p>Contact Form</p>
+                    <p>Our Offices</p>
+                  </div>
+                </div>
+                <div
+                  class="border-t border-solid border-color relative left-0 w-auto sm:hidden"
+                ></div>
+              </div>
+            </div>
+            <!-- second -->
+            <div
+              class="flex flex-col sm:flex-row gap-3 sm:gap-10 xl:gap-14 overflow-hidden"
+            >
+              <div
+                class="flex flex-col gap-4 border-l border-solid border-color sm:border-none pl-6 sm:pl-0"
+              >
+                <div class="font-medium text-base text-color-addition-info">
+                  About Us
+                </div>
+                <div class="flex flex-col gap-2 text-white font-medium text-sm">
+                  <p>Our Story</p>
+                  <p>Our Works</p>
+                  <p>How It Works</p>
+                  <p>Our Team</p>
+                  <p>Our Clients</p>
+                </div>
+              </div>
+              <div
+                class="border-t border-solid border-color relative left-6 w-auto sm:hidden"
+              ></div>
+              <div class="flex flex-col gap-4 pl-6 sm:pl-0">
+                <div class="font-medium text-base text-color-addition-info">
+                  Services
+                </div>
+                <div class="flex flex-col gap-2 text-white font-medium text-sm">
+                  <p>Valuation Mastery</p>
+                  <p>Strategic Marketing</p>
+                  <p>Negotiation Wizardry</p>
+                  <p>Closing Success</p>
+                  <p>Property Management</p>
+                </div>
+              </div>
+              <div
+                class="border-t border-solid border-color relative left-6 w-auto sm:hidden"
+              ></div>
+            </div>
+          </div>
+          <!-- for info section of every section -->
+          <div class="sm:flex sm:gap-10 xl:gap-20 2xl:gap-28 hidden">
+            <div class="flex flex-col gap-6">
+              <div
+                class="text-lg 2xl:text-xl font-medium text-color-addition-info"
+              >
+                Home
+              </div>
+              <div>
+                <ul
+                  class="flex flex-col gap-4 font-medium text-base 2xl:text-lg text-color"
+                >
+                  <li>Hero Section</li>
+                  <li>Features</li>
+                  <li>Properties</li>
+                  <li>Testimonials</li>
+                  <li>FAQ’s</li>
+                </ul>
+              </div>
+            </div>
+            <div class="flex flex-col gap-6">
+              <div
+                class="text-lg 2xl:text-xl font-medium text-color-addition-info"
+              >
+                About Us
+              </div>
+              <div>
+                <ul
+                  class="flex flex-col gap-4 font-medium text-base 2xl:text-lg text-color"
+                >
+                  <li>Our Story</li>
+                  <li>Our Works</li>
+                  <li>How It Works</li>
+                  <li>Our Team</li>
+                  <li>Our Clients</li>
+                </ul>
+              </div>
+            </div>
+            <div class="flex flex-col gap-6">
+              <div
+                class="text-lg 2xl:text-xl font-medium text-color-addition-info"
+              >
+                Properties
+              </div>
+              <div>
+                <ul
+                  class="flex flex-col gap-4 font-medium text-base 2xl:text-lg text-color"
+                >
+                  <li>Portfolio</li>
+                  <li>Categories</li>
+                </ul>
+              </div>
+            </div>
+            <div class="flex flex-col gap-6">
+              <div
+                class="text-lg 2xl:text-xl font-medium text-color-addition-info"
+              >
+                Services
+              </div>
+              <div>
+                <ul
+                  class="flex flex-col gap-4 font-medium text-base 2xl:text-lg text-color"
+                >
+                  <li>Valuation Mastery</li>
+                  <li>Strategic Marketing</li>
+                  <li>Negotiation Wizardry</li>
+                  <li>Closing Success</li>
+                  <li>Property Management</li>
+                </ul>
+              </div>
+            </div>
+            <div class="flex flex-col gap-6">
+              <div
+                class="text-lg 2xl:text-xl font-medium text-color-addition-info"
+              >
+                Contact Us
+              </div>
+              <div>
+                <ul
+                  class="flex flex-col gap-4 font-medium text-base 2xl:text-lg text-color"
+                >
+                  <li>Contact Form</li>
+                  <li>Our Offices</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- last part for social links -->
+        <div
+          class="py-5 px-3 xl:px-10 2xl:px-20 bg-for-logo-section flex flex-col-reverse md:flex-row justify-between gap-4 items-center"
+        >
+          <div class="text-center font-medium text-sm sm:text-base text-color">
+            <p>
+              @2023 Estatein. All Rights Reserved.
+              <button class="sm:pl-9 pt-4 sm:pt-0">Terms & Conditions</button>
+            </p>
+          </div>
+          <div class="flex gap-3 sm:gap-6">
+            <img
+              src="/public/assets/propertypage/facebook.png"
+              alt="facebook"
+            />
+            <img src="/public/assets/propertypage/linkein.png" alt="linkedin" />
+            <img src="/public/assets/propertypage/twitter.png" alt="twitter" />
+            <img src="/public/assets/propertypage/youtube.png" alt="youtube" />
+          </div>
+        </div>
+      </footer>
     </div>
   </body>
 </html>
