@@ -110,6 +110,10 @@
   outline: 4px solid rgba(26, 26, 26, 1);
 }
 
+.border-outline-two {
+  outline: 8px solid rgba(26, 26, 26, 1);
+}
+
 .h-boxes {
   height: 80%;
 }
