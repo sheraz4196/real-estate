@@ -1591,6 +1591,15 @@ video {
   .md\:flex-row {
     flex-direction: row;
   }
+
+  .md\:py-32 {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+  }
+
+  .md\:pl-10 {
+    padding-left: 2.5rem;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -1675,12 +1684,25 @@ video {
     border-bottom-left-radius: 0px;
   }
 
+  .lg\:py-32 {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+  }
+
   .lg\:pt-3 {
     padding-top: 0.75rem;
   }
 
   .lg\:pt-3\.5 {
     padding-top: 0.875rem;
+  }
+
+  .lg\:pl-10 {
+    padding-left: 2.5rem;
+  }
+
+  .lg\:pr-64 {
+    padding-right: 16rem;
   }
 }
 
