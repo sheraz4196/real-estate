@@ -7,9 +7,9 @@
     <title>property page</title>
   </head>
   <body class="bg-color-all font-urbanist">
-    <div class="main-container flex flex-col gap-56">
+    <div class="main-container flex flex-col gap-20 lg:gap-48">
       <!-- banner header and first two sections -->
-      <div class="border-bottom relative flex flex-col gap-10">
+      <div class="relative flex flex-col gap-10">
         <div>
           <!-- header and banner -->
           <div class="grid grid-rows-2 gap-0.5">
@@ -47,7 +47,7 @@
             </section>
             <!-- logo and burger button -->
             <section
-              class="flex justify-between items-center p-3 sm:px-8 xl:px-10 2xl:px-20 bg-for-logo-section"
+              class="flex justify-between items-center px-3 sm:px-8 xl:px-10 2xl:px-20 bg-for-logo-section"
             >
               <img
                 src="/public/assets/propertypage/main-logo.png"
@@ -114,7 +114,7 @@
           </div>
           <!-- section first -->
           <section
-            class="px-3 py-12 sm:py-32 2xl:py-52 sm:pl-10 sm:pr-64 2xl:px-20 bg-linear-gradient flex flex-col gap-3 2xl:gap-4"
+            class="border-bottom px-3 py-12 sm:py-32 2xl:py-52 sm:pl-10 sm:pr-64 2xl:px-20 bg-linear-gradient flex flex-col gap-3 2xl:gap-4"
           >
             <div
               class="font-semibold text-xl sm:text-4xl 2xl:text-5xl text-color"
@@ -131,7 +131,7 @@
             </div>
           </section>
         </div>
-        <!-- section second -->
+        <!-- section second search bars -->
         <section
           class="w-full px-3 sm:px-10 2xl:px-40 lg:absolute -bottom-32 flex flex-col gap-5 lg:gap-0 lg:items-center"
         >
@@ -276,304 +276,526 @@
           </div>
         </section>
       </div>
-      <!-- footer -->
-      <footer class="flex gap-10 flex-col">
-        <!-- first div for footer paragraph button background images etc -->
-        <div
-          class="relative border-top-bottom grid items-center sm:h-64 overflow-hidden"
-        >
-          <!-- for bg images -->
-          <div class="relative">
-            <div>
-              <img
-                src="/public/assets/propertypage/footer-bg-for-small-devices.png"
-                alt="footer-bg-img-small-devices"
-                class="inline-block sm:hidden"
-              />
-              <img
-                src="/public/assets/propertypage/footer-bg-abstraction-left.png"
-                alt="footer-left-for-large-screens"
-                class="hidden sm:inline-block"
-              />
-            </div>
-            <div class="absolute right-0 bottom-0">
-              <img
-                src="/public/assets/propertypage/footer-bg-for-small-devices-right.png"
-                alt="small-devices-responsive-images"
-                class="inline-block sm:hidden"
-              />
-              <img
-                src="/public/assets/propertypage/footer-bg-abstraction-right.png"
-                alt=""
-                class="hidden sm:inline-block"
-              />
-            </div>
-          </div>
-          <!-- for texts and button-->
-          <div
-            class="absolute px-3 xl:px-10 2xl:px-20 flex flex-col gap-7 xl:flex-row justify-between sm:items-end xl:items-center"
-          >
-            <!-- text -->
-            <div class="grid gap-2">
-              <p class="text-color font-semibold text-3xl">
-                Start Your Real Estate Journey Today
+      <div class="flex flex-col gap-20">
+        <!-- hotel information -->
+        <section class="px-3 sm:px-8 xl:px-10 2xl:px-20">
+          <img
+            src="/public/assets/propertypage/pricing-logo-star.png"
+            alt="pricing-logo-star"
+          />
+          <div class="mt-1 ml-2 flex flex-col gap-10 sm:gap-14 2xl:gap-20">
+            <div class="flex flex-col gap-2">
+              <p class="font-semibold text-2xl xl:text-4xl text-color">
+                Discover a World of Possibilities
               </p>
-              <p class="font-medium text-sm text-color-addition-info">
-                Your dream property is just a click away. Whether you're looking
-                for a new home, a strategic investment, or expert real estate
-                advice, Estatein is here to assist you every step of the way.
-                Take the first step towards your real estate goals and explore
-                our available properties or get in touch with our team for
-                personalized assistance.
+              <p
+                class="font-medium lg:w-3/4 text-sm sm:text-base 2xl:text-lg text-color-addition-info"
+              >
+                Our portfolio of properties is as diverse as your dreams.
+                Explore the following categories to find the perfect property
+                that resonates with your vision of home
               </p>
             </div>
-            <!-- button -->
-            <button
-              class="font-medium text-sm text-color text-center py-[14px] px-5 bg-for-second-btn rounded-lg sm:w-64"
-            >
-              Explore Properties
-            </button>
-          </div>
-        </div>
-        <!-- second div for footer in which every info of every section -->
-        <div
-          class="px-3 xl:px-10 2xl:px-20 flex flex-col lg:flex-row gap-12 xl:gap-28 2xl:gap-28"
-        >
-          <!-- for logo and email bar -->
-          <div class="grid sm:flex flex-col sm:items-start gap-6">
-            <!-- logo -->
-            <img
-              src="/public/assets/propertypage/main-logo.png"
-              alt="main-logo"
-            />
-            <!-- mail bar -->
-            <div
-              class="flex items-center gap-2 justify-between rounded-lg bg-color-all border-button py-3 px-5"
-            >
-              <div class="flex items-center gap-3">
+            <div class="grid grid-flow-col gap-5">
+              <div
+                class="p-5 sm:p-8 2xl:p-10 border-button rounded-xl gap-6 2xl:gap-8 grid"
+              >
                 <img
-                  src="/public/assets/propertypage/mail-icon.png"
-                  alt="mail-icon"
+                  src="/public/assets/propertypage/hotel-features-section-01.png"
+                  alt="hotel"
+                  class="w-full"
                 />
-                <input
-                  type="text"
-                  placeholder="Enter Your Email"
-                  name="name"
-                  id="name"
-                  class="text-color-addition-info bg-color-all outline-none"
+                <!-- location hotel -->
+                <div class="flex flex-col gap-4 2xl:gap-5 items-start">
+                  <div
+                    class="text-xs sm:text-sm 2xl:text-lg font-medium text-color border-button bg-for-logo-section px-3 py-1.5 rounded-3xl"
+                  >
+                    Coastal Escapes - Where Waves Beckon
+                  </div>
+                  <!-- hotel rating and info -->
+                  <div class="flex flex-col gap-1">
+                    <p class="font-semibold text-lg xl:text-xl text-color">
+                      Seaside Serenity Villa
+                    </p>
+                    <p
+                      class="font-medium text-sm xl:text-base text-color-addition-info"
+                    >
+                      Wake up to the soothing melody of waves. This beachfront
+                      villa offers...
+                      <a
+                        href="#"
+                        class="text-color text-underline-color-for-pricing-read-more"
+                      >
+                        Read More
+                      </a>
+                    </p>
+                  </div>
+                </div>
+                <!-- pricing -->
+                <div class="flex gap-4 items-center sm:gap-0 justify-between">
+                  <div>
+                    <p class="font-medium text-sm text-color-addition-info">
+                      Price
+                    </p>
+                    <p class="font-semibold text-sm sm:text-lg text-color">
+                      $1,250,000
+                    </p>
+                  </div>
+                  <div
+                    class="px-5 py-[14px] rounded-lg bg-for-second-btn font-medium text-[10px] sm:text-sm text-color xl:w-60 text-center"
+                  >
+                    View Property Details
+                  </div>
+                </div>
+              </div>
+              <div
+                class="p-5 sm:p-8 2xl:p-10 border-button rounded-xl gap-6 2xl:gap-8 md:grid hidden"
+              >
+                <img
+                  src="/public/assets/propertypage/hotel-features-section-02.png"
+                  alt="hotel"
+                  class="w-full"
+                />
+                <!-- location hotel -->
+                <div class="flex flex-col gap-4 2xl:gap-5 items-start">
+                  <div
+                    class="text-xs sm:text-sm 2xl:text-lg font-medium text-color border-button bg-for-logo-section px-3 py-1.5 rounded-3xl"
+                  >
+                    Urban Oasis - Life in the Heart of the City
+                  </div>
+                  <!-- hotel rating and info -->
+                  <div class="flex flex-col gap-1">
+                    <p class="font-semibold text-lg xl:text-xl text-color">
+                      Metropolitan Haven
+                    </p>
+                    <p
+                      class="font-medium text-sm xl:text-base text-color-addition-info"
+                    >
+                      Immerse yourself in the energy of the city. This modern
+                      apartment in the heart...
+                      <a
+                        href="#"
+                        class="text-color text-underline-color-for-pricing-read-more"
+                      >
+                        Read More
+                      </a>
+                    </p>
+                  </div>
+                </div>
+                <!-- pricing -->
+                <div class="flex gap-4 items-center sm:gap-0 justify-between">
+                  <div>
+                    <p class="font-medium text-sm text-color-addition-info">
+                      Price
+                    </p>
+                    <p class="font-semibold text-sm sm:text-lg text-color">
+                      $650,000
+                    </p>
+                  </div>
+                  <div
+                    class="px-5 py-3.5 rounded-lg bg-for-second-btn font-medium text-xs sm:text-sm text-color xl:w-60 text-center"
+                  >
+                    View Property Details
+                  </div>
+                </div>
+              </div>
+              <div
+                class="p-5 sm:p-8 2xl:p-10 border-button rounded-xl gap-6 2xl:gap-8 xl:grid hidden"
+              >
+                <img
+                  src="/public/assets/propertypage/hotel.png"
+                  alt="hotel"
+                  class="w-full"
+                />
+                <!-- location hotel -->
+                <div class="flex flex-col gap-4 2xl:gap-5 items-start">
+                  <div
+                    class="text-xs sm:text-sm 2xl:text-lg font-medium text-color border-button bg-for-logo-section px-3 py-1.5 rounded-3xl"
+                  >
+                    Countryside Charm - Escape to Nature's Embrace
+                  </div>
+                  <!-- hotel rating and info -->
+                  <div class="flex flex-col gap-1">
+                    <p class="font-semibold text-lg xl:text-xl text-color">
+                      Rustic Retreat Cottage
+                    </p>
+                    <p
+                      class="font-medium text-sm xl:text-base text-color-addition-info"
+                    >
+                      Find tranquility in the countryside. This charming cottage
+                      is nestled amidst rolling hills...
+                      <a
+                        href="#"
+                        class="text-color text-underline-color-for-pricing-read-more"
+                      >
+                        Read More
+                      </a>
+                    </p>
+                  </div>
+                </div>
+                <!-- pricing -->
+                <div class="flex gap-4 items-center sm:gap-0 justify-between">
+                  <div>
+                    <p class="font-medium text-sm text-color-addition-info">
+                      Price
+                    </p>
+                    <p class="font-semibold text-sm sm:text-lg text-color">
+                      $350,000
+                    </p>
+                  </div>
+                  <div
+                    class="px-5 py-[14px] rounded-lg bg-for-second-btn font-medium text-[10px] sm:text-sm text-color xl:w-60 text-center"
+                  >
+                    View Property Details
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- buttons -->
+            <div class="xl:flex justify-between items-start border-top pt-2">
+              <div class="hidden xl:inline-block">
+                <p
+                  class="text-lg sm:text-xl font-medium text-color-addition-info"
+                >
+                  <span class="text-color">01</span> of 10
+                </p>
+              </div>
+              <div class="flex gap-2 justify-between items-center">
+                <img
+                  src="/public/assets/propertypage/Button.png"
+                  alt="left-button"
+                  class="w-7 xl:w-10"
+                />
+                <p
+                  class="text-sm sm:text-xl font-medium text-color-addition-info xl:hidden"
+                >
+                  <span class="text-color">01</span> of 60
+                </p>
+                <img
+                  src="/public/assets/propertypage/right-button.png"
+                  alt="right-button"
+                  class="w-7 xl:w-10"
                 />
               </div>
+            </div>
+          </div>
+        </section>
+        <!-- footer -->
+        <footer class="flex gap-10 flex-col">
+          <!-- first div for footer paragraph button background images etc -->
+          <div
+            class="relative border-top-bottom grid items-center sm:h-64 overflow-hidden"
+          >
+            <!-- for bg images -->
+            <div class="relative">
               <div>
                 <img
-                  src="/public/assets/propertypage/send-icon.png"
-                  alt="send-icon"
+                  src="/public/assets/propertypage/footer-bg-for-small-devices.png"
+                  alt="footer-bg-img-small-devices"
+                  class="inline-block sm:hidden"
+                />
+                <img
+                  src="/public/assets/propertypage/footer-bg-abstraction-left.png"
+                  alt="footer-left-for-large-screens"
+                  class="hidden sm:inline-block"
+                />
+              </div>
+              <div class="absolute right-0 bottom-0">
+                <img
+                  src="/public/assets/propertypage/footer-bg-for-small-devices-right.png"
+                  alt="small-devices-responsive-images"
+                  class="inline-block sm:hidden"
+                />
+                <img
+                  src="/public/assets/propertypage/footer-bg-abstraction-right.png"
+                  alt=""
+                  class="hidden sm:inline-block"
                 />
               </div>
             </div>
-          </div>
-          <!-- for info every section -->
-          <div class="grid grid-cols-2 sm:hidden sm:gap-10 xl:gap-14">
-            <!-- first -->
-            <div class="flex flex-col sm:flex-row gap-3 sm:gap-10 xl:gap-14">
-              <div class="flex flex-col gap-3 pr-3 sm:pr-0">
-                <div class="flex flex-col gap-4">
-                  <div class="font-medium text-base text-color-addition-info">
-                    Home
-                  </div>
-                  <div
-                    class="flex flex-col gap-2 text-white font-medium text-sm"
-                  >
-                    <p>Hero Section</p>
-                    <p>Features</p>
-                    <p>Properties</p>
-                    <p>Testimonials</p>
-                    <p>FAQ’s</p>
-                  </div>
-                </div>
-                <div
-                  class="border-t border-solid border-color relative left-0 w-auto pr-3 sm:hidden"
-                ></div>
+            <!-- for texts and button-->
+            <div
+              class="absolute px-3 sm:px-8 xl:px-10 2xl:px-20 grid grid-flow-row sm:grid-cols-6 gap-7 justify-between sm:justify-items-end sm:items-center"
+            >
+              <!-- text -->
+              <div class="grid gap-2 sm:col-span-4">
+                <p class="text-color font-semibold text-3xl">
+                  Start Your Real Estate Journey Today
+                </p>
+                <p
+                  class="font-medium text-sm sm:text-base 2xl:text-lg text-color-addition-info"
+                >
+                  Your dream property is just a click away. Whether you're
+                  looking for a new home, a strategic investment, or expert real
+                  estate advice, Estatein is here to assist you every step of
+                  the way. Take the first step towards your real estate goals
+                  and explore our available properties or get in touch with our
+                  team for personalized assistance.
+                </p>
               </div>
-              <div
-                class="flex flex-col sm:flex-row gap-3 sm:gap-10 xl:gap-14 border-r border-solid border-color sm:border-none pr-3 sm:pr-0"
+              <!-- button -->
+              <button
+                class="font-medium text-sm text-color text-center py-3.5 px-5 bg-for-second-btn rounded-lg sm:col-span-2"
               >
-                <div class="flex flex-col gap-4">
+                Explore Properties
+              </button>
+            </div>
+          </div>
+          <!-- second div for footer in which every info of every section -->
+          <div
+            class="px-3 sm:px-8 xl:px-10 2xl:px-20 flex flex-col lg:flex-row gap-12 xl:gap-28 2xl:gap-28"
+          >
+            <!-- for logo and email bar -->
+            <div class="grid sm:flex flex-col sm:items-start gap-6">
+              <!-- logo -->
+              <img
+                src="/public/assets/propertypage/main-logo.png"
+                alt="main-logo"
+              />
+              <!-- mail bar -->
+              <div
+                class="flex items-center gap-2 justify-between rounded-lg bg-color-all border-button py-3 px-5"
+              >
+                <div class="flex items-center gap-3">
+                  <img
+                    src="/public/assets/propertypage/mail-icon.png"
+                    alt="mail-icon"
+                  />
+                  <input
+                    type="text"
+                    placeholder="Enter Your Email"
+                    name="name"
+                    id="name"
+                    class="text-color-addition-info bg-color-all outline-none"
+                  />
+                </div>
+                <div>
+                  <img
+                    src="/public/assets/propertypage/send-icon.png"
+                    alt="send-icon"
+                  />
+                </div>
+              </div>
+            </div>
+            <!-- for info every section -->
+            <div class="grid grid-cols-2 sm:hidden sm:gap-10 xl:gap-14">
+              <!-- first -->
+              <div class="flex flex-col sm:flex-row gap-3 sm:gap-10 xl:gap-14">
+                <div class="flex flex-col gap-3 pr-3 sm:pr-0">
+                  <div class="flex flex-col gap-4">
+                    <div class="font-medium text-base text-color-addition-info">
+                      Home
+                    </div>
+                    <div
+                      class="flex flex-col gap-2 text-white font-medium text-sm"
+                    >
+                      <p>Hero Section</p>
+                      <p>Features</p>
+                      <p>Properties</p>
+                      <p>Testimonials</p>
+                      <p>FAQ’s</p>
+                    </div>
+                  </div>
+                  <div
+                    class="border-t border-solid border-color relative left-0 w-auto pr-3 sm:hidden"
+                  ></div>
+                </div>
+                <div
+                  class="flex flex-col sm:flex-row gap-3 sm:gap-10 xl:gap-14 border-r border-solid border-color sm:border-none pr-3 sm:pr-0"
+                >
+                  <div class="flex flex-col gap-4">
+                    <div class="font-medium text-base text-color-addition-info">
+                      Properties
+                    </div>
+                    <div
+                      class="flex flex-col gap-2 text-white font-medium text-sm"
+                    >
+                      <p>Portfolio</p>
+                      <p>Categories</p>
+                    </div>
+                  </div>
+                  <div
+                    class="border-t border-solid border-color relative left-0 w-auto sm:hidden"
+                  ></div>
+                  <div class="flex flex-col gap-4">
+                    <div class="font-medium text-base text-color-addition-info">
+                      Contact Us
+                    </div>
+                    <div
+                      class="flex flex-col gap-2 text-white font-medium text-sm"
+                    >
+                      <p>Contact Form</p>
+                      <p>Our Offices</p>
+                    </div>
+                  </div>
+                  <div
+                    class="border-t border-solid border-color relative left-0 w-auto sm:hidden"
+                  ></div>
+                </div>
+              </div>
+              <!-- second -->
+              <div
+                class="flex flex-col sm:flex-row gap-3 sm:gap-10 xl:gap-14 overflow-hidden"
+              >
+                <div
+                  class="flex flex-col gap-4 border-l border-solid border-color sm:border-none pl-6 sm:pl-0"
+                >
                   <div class="font-medium text-base text-color-addition-info">
-                    Properties
+                    About Us
                   </div>
                   <div
                     class="flex flex-col gap-2 text-white font-medium text-sm"
                   >
-                    <p>Portfolio</p>
-                    <p>Categories</p>
+                    <p>Our Story</p>
+                    <p>Our Works</p>
+                    <p>How It Works</p>
+                    <p>Our Team</p>
+                    <p>Our Clients</p>
                   </div>
                 </div>
                 <div
-                  class="border-t border-solid border-color relative left-0 w-auto sm:hidden"
+                  class="border-t border-solid border-color relative left-6 w-auto sm:hidden"
                 ></div>
-                <div class="flex flex-col gap-4">
+                <div class="flex flex-col gap-4 pl-6 sm:pl-0">
                   <div class="font-medium text-base text-color-addition-info">
-                    Contact Us
+                    Services
                   </div>
                   <div
                     class="flex flex-col gap-2 text-white font-medium text-sm"
                   >
-                    <p>Contact Form</p>
-                    <p>Our Offices</p>
+                    <p>Valuation Mastery</p>
+                    <p>Strategic Marketing</p>
+                    <p>Negotiation Wizardry</p>
+                    <p>Closing Success</p>
+                    <p>Property Management</p>
                   </div>
                 </div>
                 <div
-                  class="border-t border-solid border-color relative left-0 w-auto sm:hidden"
+                  class="border-t border-solid border-color relative left-6 w-auto sm:hidden"
                 ></div>
               </div>
             </div>
-            <!-- second -->
-            <div
-              class="flex flex-col sm:flex-row gap-3 sm:gap-10 xl:gap-14 overflow-hidden"
-            >
-              <div
-                class="flex flex-col gap-4 border-l border-solid border-color sm:border-none pl-6 sm:pl-0"
-              >
-                <div class="font-medium text-base text-color-addition-info">
+            <!-- for info section of every section -->
+            <div class="sm:flex sm:gap-10 xl:gap-20 2xl:gap-28 hidden">
+              <div class="flex flex-col gap-6">
+                <div
+                  class="text-lg 2xl:text-xl font-medium text-color-addition-info"
+                >
+                  Home
+                </div>
+                <div>
+                  <ul
+                    class="flex flex-col gap-4 font-medium text-base 2xl:text-lg text-color"
+                  >
+                    <li>Hero Section</li>
+                    <li>Features</li>
+                    <li>Properties</li>
+                    <li>Testimonials</li>
+                    <li>FAQ’s</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="flex flex-col gap-6">
+                <div
+                  class="text-lg 2xl:text-xl font-medium text-color-addition-info"
+                >
                   About Us
                 </div>
-                <div class="flex flex-col gap-2 text-white font-medium text-sm">
-                  <p>Our Story</p>
-                  <p>Our Works</p>
-                  <p>How It Works</p>
-                  <p>Our Team</p>
-                  <p>Our Clients</p>
+                <div>
+                  <ul
+                    class="flex flex-col gap-4 font-medium text-base 2xl:text-lg text-color"
+                  >
+                    <li>Our Story</li>
+                    <li>Our Works</li>
+                    <li>How It Works</li>
+                    <li>Our Team</li>
+                    <li>Our Clients</li>
+                  </ul>
                 </div>
               </div>
-              <div
-                class="border-t border-solid border-color relative left-6 w-auto sm:hidden"
-              ></div>
-              <div class="flex flex-col gap-4 pl-6 sm:pl-0">
-                <div class="font-medium text-base text-color-addition-info">
+              <div class="flex flex-col gap-6">
+                <div
+                  class="text-lg 2xl:text-xl font-medium text-color-addition-info"
+                >
+                  Properties
+                </div>
+                <div>
+                  <ul
+                    class="flex flex-col gap-4 font-medium text-base 2xl:text-lg text-color"
+                  >
+                    <li>Portfolio</li>
+                    <li>Categories</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="flex flex-col gap-6">
+                <div
+                  class="text-lg 2xl:text-xl font-medium text-color-addition-info"
+                >
                   Services
                 </div>
-                <div class="flex flex-col gap-2 text-white font-medium text-sm">
-                  <p>Valuation Mastery</p>
-                  <p>Strategic Marketing</p>
-                  <p>Negotiation Wizardry</p>
-                  <p>Closing Success</p>
-                  <p>Property Management</p>
+                <div>
+                  <ul
+                    class="flex flex-col gap-4 font-medium text-base 2xl:text-lg text-color"
+                  >
+                    <li>Valuation Mastery</li>
+                    <li>Strategic Marketing</li>
+                    <li>Negotiation Wizardry</li>
+                    <li>Closing Success</li>
+                    <li>Property Management</li>
+                  </ul>
                 </div>
               </div>
-              <div
-                class="border-t border-solid border-color relative left-6 w-auto sm:hidden"
-              ></div>
-            </div>
-          </div>
-          <!-- for info section of every section -->
-          <div class="sm:flex sm:gap-10 xl:gap-20 2xl:gap-28 hidden">
-            <div class="flex flex-col gap-6">
-              <div
-                class="text-lg 2xl:text-xl font-medium text-color-addition-info"
-              >
-                Home
-              </div>
-              <div>
-                <ul
-                  class="flex flex-col gap-4 font-medium text-base 2xl:text-lg text-color"
+              <div class="flex flex-col gap-6">
+                <div
+                  class="text-lg 2xl:text-xl font-medium text-color-addition-info"
                 >
-                  <li>Hero Section</li>
-                  <li>Features</li>
-                  <li>Properties</li>
-                  <li>Testimonials</li>
-                  <li>FAQ’s</li>
-                </ul>
-              </div>
-            </div>
-            <div class="flex flex-col gap-6">
-              <div
-                class="text-lg 2xl:text-xl font-medium text-color-addition-info"
-              >
-                About Us
-              </div>
-              <div>
-                <ul
-                  class="flex flex-col gap-4 font-medium text-base 2xl:text-lg text-color"
-                >
-                  <li>Our Story</li>
-                  <li>Our Works</li>
-                  <li>How It Works</li>
-                  <li>Our Team</li>
-                  <li>Our Clients</li>
-                </ul>
-              </div>
-            </div>
-            <div class="flex flex-col gap-6">
-              <div
-                class="text-lg 2xl:text-xl font-medium text-color-addition-info"
-              >
-                Properties
-              </div>
-              <div>
-                <ul
-                  class="flex flex-col gap-4 font-medium text-base 2xl:text-lg text-color"
-                >
-                  <li>Portfolio</li>
-                  <li>Categories</li>
-                </ul>
-              </div>
-            </div>
-            <div class="flex flex-col gap-6">
-              <div
-                class="text-lg 2xl:text-xl font-medium text-color-addition-info"
-              >
-                Services
-              </div>
-              <div>
-                <ul
-                  class="flex flex-col gap-4 font-medium text-base 2xl:text-lg text-color"
-                >
-                  <li>Valuation Mastery</li>
-                  <li>Strategic Marketing</li>
-                  <li>Negotiation Wizardry</li>
-                  <li>Closing Success</li>
-                  <li>Property Management</li>
-                </ul>
-              </div>
-            </div>
-            <div class="flex flex-col gap-6">
-              <div
-                class="text-lg 2xl:text-xl font-medium text-color-addition-info"
-              >
-                Contact Us
-              </div>
-              <div>
-                <ul
-                  class="flex flex-col gap-4 font-medium text-base 2xl:text-lg text-color"
-                >
-                  <li>Contact Form</li>
-                  <li>Our Offices</li>
-                </ul>
+                  Contact Us
+                </div>
+                <div>
+                  <ul
+                    class="flex flex-col gap-4 font-medium text-base 2xl:text-lg text-color"
+                  >
+                    <li>Contact Form</li>
+                    <li>Our Offices</li>
+                  </ul>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        <!-- last part for social links -->
-        <div
-          class="py-5 px-3 xl:px-10 2xl:px-20 bg-for-logo-section flex flex-col-reverse md:flex-row justify-between gap-4 items-center"
-        >
-          <div class="text-center font-medium text-sm sm:text-base text-color">
-            <p>
-              @2023 Estatein. All Rights Reserved.
-              <button class="sm:pl-9 pt-4 sm:pt-0">Terms & Conditions</button>
-            </p>
+          <!-- last part for social links -->
+          <div
+            class="px-3 sm:px-8 xl:px-10 2xl:px-20 py-3 bg-for-logo-section flex flex-col-reverse md:flex-row justify-between gap-4 items-center"
+          >
+            <div
+              class="text-center font-medium text-sm sm:text-base text-color"
+            >
+              <p>
+                @2023 Estatein. All Rights Reserved.
+                <button class="sm:pl-9 pt-4 sm:pt-0">Terms & Conditions</button>
+              </p>
+            </div>
+            <div class="flex gap-3 sm:gap-6">
+              <img
+                src="/public/assets/propertypage/facebook.png"
+                alt="facebook"
+              />
+              <img
+                src="/public/assets/propertypage/linkein.png"
+                alt="linkedin"
+              />
+              <img
+                src="/public/assets/propertypage/twitter.png"
+                alt="twitter"
+              />
+              <img
+                src="/public/assets/propertypage/youtube.png"
+                alt="youtube"
+              />
+            </div>
           </div>
-          <div class="flex gap-3 sm:gap-6">
-            <img
-              src="/public/assets/propertypage/facebook.png"
-              alt="facebook"
-            />
-            <img src="/public/assets/propertypage/linkein.png" alt="linkedin" />
-            <img src="/public/assets/propertypage/twitter.png" alt="twitter" />
-            <img src="/public/assets/propertypage/youtube.png" alt="youtube" />
-          </div>
-        </div>
-      </footer>
+        </footer>
+      </div>
     </div>
   </body>
 </html>
