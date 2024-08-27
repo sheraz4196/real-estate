@@ -127,6 +127,9 @@
   border-radius: 100px;
 }
 
+.color {
+  border-color: rgba(38, 38, 38, 1);
+}
 
 .btn-bg-color {
   background-color: rgba(112, 59, 247, 1);
