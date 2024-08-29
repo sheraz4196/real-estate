@@ -1,9 +1,155 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="stylesheet" href="/public/style.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Detail Properties</title>
   </head>
-  <body></body>
+  <body class="bg-color-all font-urbanist">
+    <!-- main container all section are there -->
+    <div class="main-container flex flex-col gap-20">
+      <!-- header and banner -->
+      <div class="grid grid-rows-2 gap-0.5">
+        <!-- head for home page -->
+        <section
+          class="bg-img-for-header text-white grid grid-flow-col justify-items-end items-center p-3"
+        >
+          <div class="text-size text-color font-medium">
+            <p class="inline-block sm:text-lg 2xl:text-2xl">
+              ✨Discover Your Dream Property with Estatein
+            </p>
+            <a
+              href="#"
+              class="text-underline-white pl-1 2xl:pl-2 sm:text-lg 2xl:text-2xl"
+            >
+              Learn More
+            </a>
+          </div>
+          <a href="#" class="rounded-full bg-slate-400/40 p-1">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              class="w-5 h-5 sm:w-8 sm:h-8"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.5"
+                d="M6 18L18 6M6 6l12 12"
+              />
+            </svg>
+          </a>
+        </section>
+        <!-- logo and burger button -->
+        <section
+          class="flex justify-between items-center px-3 sm:px-10 2xl:px-20 bg-for-logo-section"
+        >
+          <img
+            src="/public/assets/propertydetails/main-logo.png"
+            alt="main-logo"
+          />
+          <ul
+            class="sm:flex gap-6 2xl:gap-10 text-color sm:text-base 2xl:text-2xl items-center no-underline hidden"
+          >
+            <li>
+              <a href="#">Home</a>
+            </li>
+            <li>
+              <a href="#">About Us</a>
+            </li>
+            <li class="rounded-lg py-3 px-5 border-button bg-color-all">
+              <a href="#">Properties</a>
+            </li>
+            <li><a href="#">Services</a></li>
+          </ul>
+          <a
+            href="#"
+            class="hidden sm:inline-block rounded-lg py-3 text-base 2xl:text-2xl text-white px-5 border-button bg-color-all"
+          >
+            Contact Us
+          </a>
+          <div class="inline-block sm:hidden">
+            <svg
+              width="50"
+              height="50"
+              viewBox="0 0 50 50"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <!-- First line -->
+              <rect x="10" y="14" width="30" height="4" rx="2" fill="white" />
+              <!-- Second line -->
+              <rect x="10" y="23" width="30" height="4" rx="2" fill="white" />
+              <!-- Third line, shorter and aligned to the right -->
+              <rect x="25" y="32" width="15" height="4" rx="2" fill="white" />
+            </svg>
+          </div>
+        </section>
+      </div>
+      <!-- section about property -->
+      <section class="flex flex-col gap-5 2xl:gap-8 px-3 sm:px-10 2xl:px-20">
+        <!-- first for property -->
+        <div class="flex flex-col gap-8 sm:gap-10 2xl:gap-12">
+          <!-- property name price etc -->
+          <div
+            class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2.5 sm:gap-0"
+          >
+            <div class="flex gap-5 sm:items-center sm:flex-row">
+              <p
+                class="text-color font-semibold text-xl lg:text-2xl 2xl:text-3xl"
+              >
+                Seaside Serenity Villa
+              </p>
+              <div
+                class="hidden p-2 2xl:p-2.5 sm:flex gap-1 items-center border-button rounded-md"
+              >
+                <img
+                  src="/public/assets/propertydetails/location.svg"
+                  alt="location"
+                />
+                <p class="text-color font-medium text-sm 2xl:text-lg">
+                  Malibu, California
+                </p>
+              </div>
+            </div>
+            <!-- price -->
+            <div class="flex gap-5 items-center">
+              <div
+                class="flex p-2 2xl:p-2.5 sm:hidden gap-1 items-center border-button rounded-md"
+              >
+                <img
+                  src="/public/assets/propertydetails/location.svg"
+                  alt="location"
+                />
+                <p class="text-color font-medium text-sm 2xl:text-lg">
+                  Malibu, California
+                </p>
+              </div>
+              <div
+                class="flex flex-row items-center sm:flex-col sm:items-start gap-1 sm:gap-0.5"
+              >
+                <p
+                  class="text-color-addition-info font-medium text-sm 2xl:text-lg"
+                >
+                  Price
+                </p>
+                <p
+                  class="text-color font-semibold text-lg sm:text-xl 2xl:text-2xl"
+                >
+                  $1,250,000
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- proeprties and buttons -->
+          <div></div>
+        </div>
+        <!-- second for its information -->
+        <div></div>
+      </section>
+    </div>
+  </body>
 </html>
