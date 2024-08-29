@@ -89,6 +89,10 @@
   border-left: 1px solid rgba(38, 38, 38, 1);
 }
 
+.border-right {
+  border-right: 1px solid rgba(38, 38, 38, 1);
+}
+
 .border-color {
   border-color: rgba(38, 38, 38, 1);
 }

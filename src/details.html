@@ -146,7 +146,7 @@
           </div>
           <!-- proeprties and buttons -->
           <div
-            class="flex flex-col sm:items-center gap-5 2xl:gap-8 border-button rounded-xl p-5 sm:p-10 2xl:p-12 bg-for-logo-section"
+            class="flex flex-col gap-5 2xl:gap-8 border-button rounded-xl p-5 sm:p-10 2xl:p-12 bg-for-logo-section"
           >
             <!-- for properties -->
             <div class="flex gap-5 2xl:gap-8 flex-col-reverse sm:flex-col">
@@ -216,7 +216,7 @@
             </div>
             <!-- for buttons -->
             <div
-              class="bg-color-all items-center rounded-full flex p-2 2xl:p-2.5 justify-between sm:gap-10"
+              class="bg-color-all place-items-center sm:self-center rounded-full grid grid-flow-col p-2 2xl:p-2.5 place-content-between sm:gap-10"
             >
               <img
                 src="/public/assets/propertydetails/left.svg"
@@ -258,7 +258,336 @@
           </div>
         </div>
         <!-- second for its information -->
-        <div></div>
+        <div class="grid grid-flow-row md:grid-cols-2 gap-5 2xl:gap-8">
+          <!-- first -->
+          <div
+            class="row-span-1 p-5 sm:p-10 2xl:p-12 border-button rounded-xl flex flex-col gap-5 sm:gap-10 2xl:gap-12"
+          >
+            <div
+              class="flex flex-col gap-1.5 sm:gap-2.5 2xl:gap-3.5 items-start"
+            >
+              <p
+                class="text-color font-semibold text-lg sm:text-xl 2xl:text-2xl"
+              >
+                Description
+              </p>
+              <p
+                class="font-medium text-sm sm:text-base 2xl:text-lg text-color-addition-info"
+              >
+                Discover your own piece of paradise with the Seaside Serenity
+                Villa. T With an open floor plan, breathtaking ocean views from
+                every room, and direct access to a pristine sandy beach, this
+                property is the epitome of coastal living.
+              </p>
+            </div>
+            <div
+              class="pt-5 sm:pt-4 2xl:pt-5 border-top flex flex-col xl:grid grid-flow-col gap-5"
+            >
+              <div class="grid grid-flow-col xl:hidden gap-5">
+                <div class="flex flex-col items-start gap-1.5">
+                  <div class="flex items-center gap-1 2xl:gap-1.5">
+                    <img
+                      src="/public/assets/propertydetails/bed.svg"
+                      alt="bed"
+                    />
+                    <p
+                      class="text-color-addition-info font-medium text-sm 2xl:text-lg"
+                    >
+                      Bedrooms
+                    </p>
+                  </div>
+                  <div
+                    class="text-color font-semibold text-lg sm:text-xl 2xl:text-2xl"
+                  >
+                    04
+                  </div>
+                </div>
+                <div class="border-right"></div>
+                <div class="flex flex-col items-start gap-1.5">
+                  <div class="flex items-center gap-1 2xl:gap-1.5">
+                    <img
+                      src="/public/assets/propertydetails/bath.svg"
+                      alt="bath"
+                    />
+                    <p
+                      class="text-color-addition-info font-medium text-sm 2xl:text-lg"
+                    >
+                      Bathrooms
+                    </p>
+                  </div>
+                  <div
+                    class="text-color font-semibold text-lg sm:text-xl 2xl:text-2xl"
+                  >
+                    03
+                  </div>
+                </div>
+              </div>
+              <div class="hidden flex-col items-start gap-1.5 xl:flex">
+                <div class="flex items-center gap-1 2xl:gap-1.5">
+                  <img src="/public/assets/propertydetails/bed.svg" alt="bed" />
+                  <p
+                    class="text-color-addition-info font-medium text-sm 2xl:text-lg"
+                  >
+                    Bedrooms
+                  </p>
+                </div>
+                <div
+                  class="text-color font-semibold text-lg sm:text-xl 2xl:text-2xl"
+                >
+                  04
+                </div>
+              </div>
+              <div class="border-right hidden xl:inline-block"></div>
+              <div class="hidden xl:flex flex-col items-start gap-1.5">
+                <div class="flex items-center gap-1 2xl:gap-1.5">
+                  <img
+                    src="/public/assets/propertydetails/bath.svg"
+                    alt="bath"
+                  />
+                  <p
+                    class="text-color-addition-info font-medium text-sm 2xl:text-lg"
+                  >
+                    Bathrooms
+                  </p>
+                </div>
+                <div
+                  class="text-color font-semibold text-lg sm:text-xl 2xl:text-2xl"
+                >
+                  03
+                </div>
+              </div>
+              <div class="xl:hidden inline-block border-button"></div>
+              <div class="border-right xl:inline-block hidden"></div>
+              <div class="flex flex-col items-start gap-1.5">
+                <div class="flex items-center gap-1 2xl:gap-1.5">
+                  <img
+                    src="/public/assets/propertydetails/area.svg"
+                    alt="Area"
+                  />
+                  <p
+                    class="text-color-addition-info font-medium text-sm 2xl:text-lg"
+                  >
+                    Area
+                  </p>
+                </div>
+                <div
+                  class="text-color font-semibold text-lg sm:text-xl 2xl:text-2xl"
+                >
+                  2,500 Square Feet
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- second -->
+          <div
+            class="row-span-2 rounded-xl border-button p-5 sm:p-10 2xl:p-12 flex flex-col items-start gap-5 sm:gap-10 2xl:gap-12"
+          >
+            <p class="text-color font-semibold text-lg sm:text-xl 2xl:text-2xl">
+              Key Features and Amenities
+            </p>
+            <div class="flex flex-col gap-5 2xl:gap-6">
+              <div
+                class="border-card-left py-2.5 px-3 sm:py-3.5 sm:px-4 2xl:py-5 2xl:px-6 gap-2.5 flex items-center bg-linear-for-details"
+              >
+                <img
+                  src="/public/assets/propertydetails/logo-white-current.svg"
+                  alt="logo"
+                />
+                <p
+                  class="text-color-addition-info font-medium text-xs sm:text-base 2xl:text-lg"
+                >
+                  Expansive oceanfront terrace for outdoor entertaining
+                </p>
+              </div>
+              <div
+                class="border-card-left py-2.5 px-3 sm:py-3.5 sm:px-4 2xl:py-5 2xl:px-6 gap-2.5 flex items-center bg-linear-for-details"
+              >
+                <img
+                  src="/public/assets/propertydetails/logo-white-current.svg"
+                  alt="logo"
+                />
+                <p
+                  class="text-color-addition-info font-medium text-xs sm:text-base 2xl:text-lg"
+                >
+                  Gourmet kitchen with top-of-the-line appliances
+                </p>
+              </div>
+              <div
+                class="border-card-left py-2.5 px-3 sm:py-3.5 sm:px-4 2xl:py-5 2xl:px-6 gap-2.5 flex items-center bg-linear-for-details"
+              >
+                <img
+                  src="/public/assets/propertydetails/logo-white-current.svg"
+                  alt="logo"
+                />
+                <p
+                  class="text-color-addition-info font-medium text-xs sm:text-base 2xl:text-lg"
+                >
+                  Private beach access for morning strolls and sunset views
+                </p>
+              </div>
+              <div
+                class="border-card-left py-2.5 px-3 sm:py-3.5 sm:px-4 2xl:py-5 2xl:px-6 gap-2.5 flex items-center bg-linear-for-details"
+              >
+                <img
+                  src="/public/assets/propertydetails/logo-white-current.svg"
+                  alt="logo"
+                />
+                <p
+                  class="text-color-addition-info font-medium text-xs sm:text-base 2xl:text-lg"
+                >
+                  Master suite with a spa-inspired bathroom and ocean-facing
+                  balcony
+                </p>
+              </div>
+              <div
+                class="border-card-left py-2.5 px-3 sm:py-3.5 sm:px-4 2xl:py-5 2xl:px-6 gap-2.5 flex items-center bg-linear-for-details"
+              >
+                <img
+                  src="/public/assets/propertydetails/logo-white-current.svg"
+                  alt="logo"
+                />
+                <p
+                  class="text-color-addition-info font-medium text-xs sm:text-base 2xl:text-lg"
+                >
+                  Private garage and ample storage space
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- section question -->
+      <section class="px-3 sm:px-10 2xl:px-20">
+        <img
+          src="/public/assets/propertydetails/pricing-logo-star.png"
+          alt="pricing-logo-star"
+        />
+        <div class="grid grid-flow-row gap-10 ml-2 mt-1">
+          <!-- first div for heading etc -->
+          <div class="grid grid-cols-1 xl:grid-cols-5 xl:place-items-end">
+            <div class="flex flex-col gap-3 xl:col-span-3">
+              <p
+                class="font-semibold text-2xl xl:text-4xl 2xl:text-5xl text-color"
+              >
+                Frequently Asked Questions
+              </p>
+              <p
+                class="font-medium text-sm xl:text-lg text-color-addition-info"
+              >
+                Find answers to common questions about Estatein's services,
+                property listings, and the real estate process. We're here to
+                provide clarity and assist you every step of the way.
+              </p>
+            </div>
+            <a
+              href="#"
+              class="col-span-2 text-color font-medium text-sm hidden w-36 text-center xl:inline-block rounded-lg border-button py-[8px] px-3 bg-for-logo-section"
+            >
+              View All FAQ’s
+            </a>
+          </div>
+          <!-- Question and answers -->
+          <div class="grid sm:grid-cols-4 lg:grid-cols-6 gap-5">
+            <!-- first question-->
+            <div
+              class="p-10 border-button rounded-xl flex sm:col-span-2 lg:col-span-2 flex-col items-start gap-6 justify-between"
+            >
+              <!-- first div for rating -->
+              <p class="font-semibold text-lg text-color">
+                How do I search for properties on Estatein?
+              </p>
+              <!-- experience info -->
+              <p class="font-medium text-base text-color-addition-info">
+                Learn how to use our user-friendly search tools to find
+                properties that match your criteria.
+              </p>
+              <!-- btn -->
+              <a
+                href="#"
+                class="text-sm font-medium text-white py-[14px] px-5 border-button bg-for-logo-section rounded-lg"
+              >
+                Read More
+              </a>
+            </div>
+
+            <!-- second question -->
+            <div
+              class="sm:col-span-2 lg:col-span-2 hidden p-10 border-button rounded-xl sm:flex flex-col items-start gap-6"
+            >
+              <!-- first div for rating -->
+              <p class="font-semibold text-lg text-color">
+                What documents do I need to sell my property through Estatein?
+              </p>
+              <!-- experience info -->
+              <p class="font-medium text-base text-color-addition-info">
+                Find out about the necessary documentation for listing your
+                property with us.
+              </p>
+              <!-- client card and his name -->
+              <a
+                href="#"
+                class="text-sm font-medium text-white py-[14px] px-5 border-button bg-for-logo-section rounded-lg"
+              >
+                Read More
+              </a>
+            </div>
+
+            <!-- third question -->
+            <div
+              class="lg:col-span-2 lg:flex hidden p-10 border-button rounded-xl flex-col items-start gap-6 justify-between"
+            >
+              <!-- first div for rating -->
+              <p class="font-semibold text-lg text-color">
+                How can I contact an Estatein agent?
+              </p>
+              <!-- experience info -->
+              <p class="font-medium text-base text-color-addition-info">
+                Discover the different ways you can get in touch with our
+                experienced agents.
+              </p>
+              <!-- client card and his name -->
+              <a
+                href="#"
+                class="text-sm font-medium text-white py-[14px] px-5 border-button bg-for-logo-section rounded-lg"
+              >
+                Read More
+              </a>
+            </div>
+          </div>
+          <!-- third div for all pages buttons -->
+          <div class="flex justify-between gap-2 items-center pt-4 border-top">
+            <a
+              href="#"
+              class="text-color font-medium text-sm sm:text-lg xl:hidden rounded-lg border-button py-2 px-3 inline-block bg-for-logo-section"
+            >
+              View All FAQ'S
+            </a>
+            <div class="hidden xl:inline-block">
+              <p
+                class="text-sm sm:text-xl font-medium text-color-addition-info"
+              >
+                <span class="text-color">01</span> of 10
+              </p>
+            </div>
+            <div class="flex gap-2 items-center">
+              <img
+                src="/public/assets/propertydetails/left.svg"
+                alt="left-button"
+                class="h-8 w-8 sm:h-11 sm:w-11 rounded-full border-button p-2 sm:p-3.5"
+              />
+              <p
+                class="text-xs sm:text-xl font-medium text-color-addition-info xl:hidden"
+              >
+                <span class="text-color">01</span> of 60
+              </p>
+              <img
+                src="/public/assets/propertydetails/right.svg"
+                alt="right-button"
+                class="h-8 w-8 sm:h-11 sm:w-11 rounded-full border-button bg-for-logo-section p-2 sm:p-3.5"
+              />
+            </div>
+          </div>
+        </div>
       </section>
       <!-- footer -->
       <footer class="flex gap-10 flex-col">
