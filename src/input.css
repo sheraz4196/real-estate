@@ -77,6 +77,10 @@
   background: linear-gradient(95.93deg, #262626 -14.82%, rgba(38, 38, 38, 0) 40.46%);
 }
 
+.bg-linear-for-details {
+  background: linear-gradient(90deg, #1A1A1A 0%, rgba(26, 26, 26, 0) 100%);
+}
+
 .border-card-left {
   border-left: 1px solid rgba(112, 59, 247, 1);
 }

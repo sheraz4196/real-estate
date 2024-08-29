@@ -692,6 +692,10 @@ video {
   height: 8rem;
 }
 
+.h-4 {
+  height: 1rem;
+}
+
 .h-4\/5 {
   height: 80%;
 }
@@ -712,18 +716,6 @@ video {
   height: 100%;
 }
 
-.h-3 {
-  height: 0.75rem;
-}
-
-.h-10 {
-  height: 2.5rem;
-}
-
-.h-4 {
-  height: 1rem;
-}
-
 .min-h-full {
   min-height: 100%;
 }
@@ -740,6 +732,10 @@ video {
   width: 9rem;
 }
 
+.w-4 {
+  width: 1rem;
+}
+
 .w-5 {
   width: 1.25rem;
 }
@@ -752,20 +748,12 @@ video {
   width: 1.5rem;
 }
 
-.w-7 {
-  width: 1.75rem;
-}
-
 .w-auto {
   width: auto;
 }
 
 .w-full {
   width: 100%;
-}
-
-.w-4 {
-  width: 1rem;
 }
 
 .grid-flow-row {
@@ -896,10 +884,6 @@ video {
   gap: 2rem;
 }
 
-.self-center {
-  align-self: center;
-}
-
 .justify-self-start {
   justify-self: start;
 }
@@ -954,11 +938,6 @@ video {
 
 .border-solid {
   border-style: solid;
-}
-
-.border-purple-800 {
-  --tw-border-opacity: 1;
-  border-color: rgb(107 33 168 / var(--tw-border-opacity));
 }
 
 .bg-slate-400\/40 {
@@ -1271,6 +1250,10 @@ video {
   background: linear-gradient(95.93deg, #262626 -14.82%, rgba(38, 38, 38, 0) 40.46%);
 }
 
+.bg-linear-for-details {
+  background: linear-gradient(90deg, #1A1A1A 0%, rgba(26, 26, 26, 0) 100%);
+}
+
 .border-card-left {
   border-left: 1px solid rgba(112, 59, 247, 1);
 }
@@ -1431,6 +1414,10 @@ video {
     gap: 0px;
   }
 
+  .sm\:gap-0\.5 {
+    gap: 0.125rem;
+  }
+
   .sm\:gap-1 {
     gap: 0.25rem;
   }
@@ -1481,10 +1468,6 @@ video {
 
   .sm\:gap-7 {
     gap: 1.75rem;
-  }
-
-  .sm\:gap-0\.5 {
-    gap: 0.125rem;
   }
 
   .sm\:border-none {
@@ -1713,10 +1696,6 @@ video {
     gap: 2rem;
   }
 
-  .lg\:gap-10 {
-    gap: 2.5rem;
-  }
-
   .lg\:rounded-b-none {
     border-bottom-right-radius: 0px;
     border-bottom-left-radius: 0px;
@@ -1772,10 +1751,6 @@ video {
 
   .xl\:hidden {
     display: none;
-  }
-
-  .xl\:w-10 {
-    width: 2.5rem;
   }
 
   .xl\:w-3\/6 {
@@ -1967,6 +1942,14 @@ video {
     padding: 4rem;
   }
 
+  .\32xl\:p-2 {
+    padding: 0.5rem;
+  }
+
+  .\32xl\:p-2\.5 {
+    padding: 0.625rem;
+  }
+
   .\32xl\:p-24 {
     padding: 6rem;
   }
@@ -1985,14 +1968,6 @@ video {
 
   .\32xl\:p-8 {
     padding: 2rem;
-  }
-
-  .\32xl\:p-2 {
-    padding: 0.5rem;
-  }
-
-  .\32xl\:p-2\.5 {
-    padding: 0.625rem;
   }
 
   .\32xl\:px-11 {
