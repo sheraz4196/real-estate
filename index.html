@@ -113,7 +113,7 @@
               </div>
               <!-- second div for buttons -->
               <div
-                class="font-normal text-color text-sm 2xl:text-3xl flex flex-col sm:flex-row gap-3 2xl:gap-6"
+                class="font-normal text-center text-color text-sm 2xl:text-3xl flex flex-col sm:flex-row gap-3 2xl:gap-6"
               >
                 <a href="#" class="py-3 sm:px-5 border-button rounded-xl">
                   Learn More
@@ -280,750 +280,779 @@
           </div>
         </section>
         <!-- features section -->
-        <section class="flex flex-col gap-8 px-3 xl:px-10 2xl:px-20">
-          <div>
-            <img
-              src="./public/assets/homepage/pricing-logo-star.png"
-              alt="pricing-logo-star"
-            />
-            <div class="flex justify-between items-end">
-              <div class="ml-2 mt-1 flex flex-col gap-2 xl:w-[64%]">
-                <p class="font-semibold text-2xl xl:text-4xl text-color">
-                  Featured Properties
-                </p>
-                <p
-                  class="font-medium text-sm text-color-addition-info xl:hidden"
+        <div class="px-3 xl:px-10 2xl:px-20">
+          <img
+            src="./public/assets/homepage/pricing-logo-star.png"
+            alt="pricing-logo-star"
+          />
+          <section class="ml-2 mt-1 flex flex-col gap-8">
+            <div>
+              <div class="flex justify-between items-end">
+                <div class="flex flex-col gap-2 xl:w-[64%]">
+                  <p class="font-semibold text-2xl xl:text-4xl text-color">
+                    Featured Properties
+                  </p>
+                  <p
+                    class="font-medium text-sm text-color-addition-info xl:hidden"
+                  >
+                    Explore our handpicked selection of featured properties.
+                    Each listing offers a glimpse into exceptional homes and
+                    investments available through Estatein.
+                  </p>
+                  <p
+                    class="font-medium text-sm text-color-addition-info hidden xl:inline-block"
+                  >
+                    Explore our handpicked selection of featured properties.
+                    Each listing offers a glimpse into exceptional homes and
+                    investments available through Estatein. Click "View Details"
+                    for more information.
+                  </p>
+                </div>
+                <a
+                  href="#"
+                  class="hidden w-52 text-center xl:inline-block rounded-lg border-button py-2 px-3 bg-for-logo-section text-color font-medium text-sm"
                 >
-                  Explore our handpicked selection of featured properties. Each
-                  listing offers a glimpse into exceptional homes and
-                  investments available through Estatein.
-                </p>
-                <p
-                  class="font-medium text-sm text-color-addition-info hidden xl:inline-block"
-                >
-                  Explore our handpicked selection of featured properties. Each
-                  listing offers a glimpse into exceptional homes and
-                  investments available through Estatein. Click "View Details"
-                  for more information.
-                </p>
+                  View All Properties
+                </a>
               </div>
+            </div>
+            <div class="grid grid-flow-col gap-5">
+              <div class="p-6 border-button rounded-xl gap-4 xl:grid hidden">
+                <img
+                  src="./public/assets/homepage/hotel-features-section-01.png"
+                  alt="hotel"
+                  class="w-full"
+                />
+                <!-- hotel rating and info -->
+                <div class="flex flex-col gap-1">
+                  <p class="font-semibold text-lg xl:text-xl text-color">
+                    Seaside Serenity Villa
+                  </p>
+                  <p
+                    class="font-medium text-sm xl:text-base text-color-addition-info"
+                  >
+                    A stunning 4-bedroom, 3-bathroom villa in a peaceful
+                    suburban neighborhood...
+                    <a
+                      href="#"
+                      class="text-color text-underline-color-for-pricing-read-more"
+                    >
+                      Read More
+                    </a>
+                  </p>
+                </div>
+                <!-- facilities -->
+                <div class="flex items-center gap-2">
+                  <div
+                    class="flex items-center gap-1 bg-for-logo-section rounded-3xl p-2 border-button"
+                  >
+                    <img
+                      src="./public/assets/homepage/bed.svg"
+                      alt="bedrooms"
+                    />
+                    <p class="font-medium 2xl:text-lg text-sm text-color">
+                      4-Bedroom
+                    </p>
+                  </div>
+                  <div
+                    class="flex items-center gap-1 bg-for-logo-section rounded-3xl p-2 border-button"
+                  >
+                    <img
+                      src="./public/assets/homepage/bath.svg"
+                      alt="bathroom"
+                    />
+                    <p class="font-medium 2xl:text-lg text-sm text-color">
+                      3-Bathroom
+                    </p>
+                  </div>
+                  <div
+                    class="flex items-center gap-1 bg-for-logo-section rounded-3xl p-2 border-button"
+                  >
+                    <img src="./public/assets/homepage/villa.svg" alt="villa" />
+                    <p class="font-medium 2xl:text-lg text-sm text-color">
+                      Villa
+                    </p>
+                  </div>
+                </div>
+                <!-- pricing -->
+                <div class="flex gap-4 items-center sm:gap-0 justify-between">
+                  <div>
+                    <p class="font-medium text-sm text-color-addition-info">
+                      Price
+                    </p>
+                    <p class="font-semibold text-sm sm:text-lg text-color">
+                      $550,000
+                    </p>
+                  </div>
+                  <div
+                    class="px-5 py-[14px] rounded-lg bg-for-second-btn font-medium text-[10px] sm:text-sm text-color xl:w-60 text-center"
+                  >
+                    View Property Details
+                  </div>
+                </div>
+              </div>
+              <div class="p-6 border-button rounded-xl gap-4 hidden sm:grid">
+                <img
+                  src="./public/assets/homepage/hotel-features-section-02.png"
+                  alt="hotel"
+                  class="w-full"
+                />
+                <!-- hotel rating and info -->
+                <div class="flex flex-col gap-1">
+                  <p class="font-semibold text-lg xl:text-xl text-color">
+                    Metropolitan Haven
+                  </p>
+                  <p
+                    class="font-medium text-sm xl:text-base text-color-addition-info"
+                  >
+                    A chic and fully-furnished 2-bedroom apartment with
+                    panoramic city views...
+                    <a
+                      href="#"
+                      class="text-color text-underline-color-for-pricing-read-more"
+                    >
+                      Read More
+                    </a>
+                  </p>
+                </div>
+                <!-- facilities -->
+                <div class="flex items-center gap-2">
+                  <div
+                    class="flex items-center gap-1 bg-for-logo-section rounded-3xl p-2 border-button"
+                  >
+                    <img
+                      src="./public/assets/homepage/bed.svg"
+                      alt="bedrooms"
+                    />
+                    <p class="font-medium 2xl:text-lg text-sm text-color">
+                      4-Bedroom
+                    </p>
+                  </div>
+                  <div
+                    class="flex items-center gap-1 bg-for-logo-section rounded-3xl p-2 border-button"
+                  >
+                    <img
+                      src="./public/assets/homepage/bath.svg"
+                      alt="bathroom"
+                    />
+                    <p class="font-medium 2xl:text-lg text-sm text-color">
+                      3-Bathroom
+                    </p>
+                  </div>
+                  <div
+                    class="flex items-center gap-1 bg-for-logo-section rounded-3xl p-2 border-button"
+                  >
+                    <img src="./public/assets/homepage/villa.svg" alt="villa" />
+                    <p class="font-medium 2xl:text-lg text-sm text-color">
+                      Villa
+                    </p>
+                  </div>
+                </div>
+                <!-- pricing -->
+                <div class="flex gap-4 items-center sm:gap-0 justify-between">
+                  <div>
+                    <p class="font-medium text-sm text-color-addition-info">
+                      Price
+                    </p>
+                    <p class="font-semibold text-sm sm:text-lg text-color">
+                      $550,000
+                    </p>
+                  </div>
+                  <div
+                    class="px-5 py-[14px] rounded-lg bg-for-second-btn font-medium text-[10px] sm:text-sm text-color xl:w-60 text-center"
+                  >
+                    View Property Details
+                  </div>
+                </div>
+              </div>
+              <div class="p-6 border-button rounded-xl grid gap-4">
+                <img
+                  src="./public/assets/homepage/hotel.png"
+                  alt="hotel"
+                  class="w-full"
+                />
+                <!-- hotel rating and info -->
+                <div class="flex flex-col gap-1">
+                  <p class="font-semibold text-lg text-color">
+                    Rustic Retreat Cottage
+                  </p>
+                  <p class="font-medium text-sm text-color-addition-info">
+                    An elegant 3-bedroom, 2.5-bathroom townhouse in a gated
+                    community...
+                    <a
+                      href="#"
+                      class="text-color text-underline-color-for-pricing-read-more"
+                    >
+                      Read More
+                    </a>
+                  </p>
+                </div>
+                <!-- facilities -->
+                <div
+                  class="grid grid-cols-6 sm:flex items-center justify-self-start gap-2"
+                >
+                  <div
+                    class="col-span-3 flex items-center gap-1 bg-for-logo-section rounded-3xl p-2 border-button"
+                  >
+                    <img
+                      src="./public/assets/homepage/bed.svg"
+                      alt="bedrooms"
+                    />
+                    <p class="font-medium 2xl:text-lg text-sm text-color">
+                      4-Bedroom
+                    </p>
+                  </div>
+                  <div
+                    class="col-span-3 flex items-center gap-1 bg-for-logo-section rounded-3xl p-2 border-button"
+                  >
+                    <img
+                      src="./public/assets/homepage/bath.svg"
+                      alt="bathroom"
+                    />
+                    <p class="font-medium 2xl:text-lg text-sm text-color">
+                      3-Bathroom
+                    </p>
+                  </div>
+                  <div
+                    class="col-span-2 flex items-center gap-1 bg-for-logo-section rounded-3xl p-2 border-button"
+                  >
+                    <img src="./public/assets/homepage/villa.svg" alt="villa" />
+                    <p class="font-medium 2xl:text-lg text-sm text-color">
+                      Villa
+                    </p>
+                  </div>
+                </div>
+                <!-- pricing -->
+                <div class="flex gap-4 items-center sm:gap-0 justify-between">
+                  <div>
+                    <p class="font-medium text-sm text-color-addition-info">
+                      Price
+                    </p>
+                    <p class="font-semibold text-sm sm:text-lg text-color">
+                      $550,000
+                    </p>
+                  </div>
+                  <div
+                    class="px-5 py-[14px] rounded-lg bg-for-second-btn font-medium text-[10px] sm:text-sm text-color xl:w-60 text-center"
+                  >
+                    View Property Details
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="flex justify-between items-center pt-4 border-top">
               <a
                 href="#"
-                class="hidden w-52 text-center xl:inline-block rounded-lg border-button py-2 px-3 bg-for-logo-section text-color font-medium text-sm"
+                class="text-color font-medium text-sm xl:hidden rounded-lg border-button py-[8px] px-3 inline-block bg-for-logo-section"
               >
                 View All Properties
               </a>
-            </div>
-          </div>
-          <div class="grid grid-flow-col gap-5">
-            <div class="p-6 border-button rounded-xl gap-4 xl:grid hidden">
-              <img
-                src="./public/assets/homepage/hotel-features-section-01.png"
-                alt="hotel"
-                class="w-full"
-              />
-              <!-- hotel rating and info -->
-              <div class="flex flex-col gap-1">
-                <p class="font-semibold text-lg xl:text-xl text-color">
-                  Seaside Serenity Villa
+              <div class="hidden xl:inline-block">
+                <p class="text-lg font-medium text-color-addition-info">
+                  <span class="text-color">01</span> of 60
                 </p>
+              </div>
+              <div class="flex gap-2 items-center">
+                <img
+                  src="./public/assets/homepage/left.svg"
+                  alt="left-button"
+                  class="h-11 w-11 rounded-full border-button p-3.5"
+                />
                 <p
-                  class="font-medium text-sm xl:text-base text-color-addition-info"
+                  class="text-xs font-medium text-color-addition-info xl:hidden"
                 >
-                  A stunning 4-bedroom, 3-bathroom villa in a peaceful suburban
-                  neighborhood...
-                  <a
-                    href="#"
-                    class="text-color text-underline-color-for-pricing-read-more"
-                  >
-                    Read More
-                  </a>
+                  <span class="text-color">01</span> of 60
                 </p>
-              </div>
-              <!-- facilities -->
-              <div class="flex items-center gap-2">
-                <div
-                  class="flex items-center gap-1 bg-for-logo-section rounded-3xl p-2 border-button"
-                >
-                  <img src="./public/assets/homepage/bed.svg" alt="bedrooms" />
-                  <p class="font-medium 2xl:text-lg text-sm text-color">
-                    4-Bedroom
-                  </p>
-                </div>
-                <div
-                  class="flex items-center gap-1 bg-for-logo-section rounded-3xl p-2 border-button"
-                >
-                  <img src="./public/assets/homepage/bath.svg" alt="bathroom" />
-                  <p class="font-medium 2xl:text-lg text-sm text-color">
-                    3-Bathroom
-                  </p>
-                </div>
-                <div
-                  class="flex items-center gap-1 bg-for-logo-section rounded-3xl p-2 border-button"
-                >
-                  <img src="./public/assets/homepage/villa.svg" alt="villa" />
-                  <p class="font-medium 2xl:text-lg text-sm text-color">
-                    Villa
-                  </p>
-                </div>
-              </div>
-              <!-- pricing -->
-              <div class="flex gap-4 items-center sm:gap-0 justify-between">
-                <div>
-                  <p class="font-medium text-sm text-color-addition-info">
-                    Price
-                  </p>
-                  <p class="font-semibold text-sm sm:text-lg text-color">
-                    $550,000
-                  </p>
-                </div>
-                <div
-                  class="px-5 py-[14px] rounded-lg bg-for-second-btn font-medium text-[10px] sm:text-sm text-color xl:w-60 text-center"
-                >
-                  View Property Details
-                </div>
+                <img
+                  src="./public/assets/homepage/right.svg"
+                  alt="right-button"
+                  class="h-11 w-11 rounded-full p-3.5 border-button bg-for-logo-section"
+                />
               </div>
             </div>
-            <div class="p-6 border-button rounded-xl gap-4 hidden sm:grid">
-              <img
-                src="./public/assets/homepage/hotel-features-section-02.png"
-                alt="hotel"
-                class="w-full"
-              />
-              <!-- hotel rating and info -->
-              <div class="flex flex-col gap-1">
-                <p class="font-semibold text-lg xl:text-xl text-color">
-                  Metropolitan Haven
-                </p>
-                <p
-                  class="font-medium text-sm xl:text-base text-color-addition-info"
-                >
-                  A chic and fully-furnished 2-bedroom apartment with panoramic
-                  city views...
-                  <a
-                    href="#"
-                    class="text-color text-underline-color-for-pricing-read-more"
-                  >
-                    Read More
-                  </a>
-                </p>
-              </div>
-              <!-- facilities -->
-              <div class="flex items-center gap-2">
-                <div
-                  class="flex items-center gap-1 bg-for-logo-section rounded-3xl p-2 border-button"
-                >
-                  <img src="./public/assets/homepage/bed.svg" alt="bedrooms" />
-                  <p class="font-medium 2xl:text-lg text-sm text-color">
-                    4-Bedroom
-                  </p>
-                </div>
-                <div
-                  class="flex items-center gap-1 bg-for-logo-section rounded-3xl p-2 border-button"
-                >
-                  <img src="./public/assets/homepage/bath.svg" alt="bathroom" />
-                  <p class="font-medium 2xl:text-lg text-sm text-color">
-                    3-Bathroom
-                  </p>
-                </div>
-                <div
-                  class="flex items-center gap-1 bg-for-logo-section rounded-3xl p-2 border-button"
-                >
-                  <img src="./public/assets/homepage/villa.svg" alt="villa" />
-                  <p class="font-medium 2xl:text-lg text-sm text-color">
-                    Villa
-                  </p>
-                </div>
-              </div>
-              <!-- pricing -->
-              <div class="flex gap-4 items-center sm:gap-0 justify-between">
-                <div>
-                  <p class="font-medium text-sm text-color-addition-info">
-                    Price
-                  </p>
-                  <p class="font-semibold text-sm sm:text-lg text-color">
-                    $550,000
-                  </p>
-                </div>
-                <div
-                  class="px-5 py-[14px] rounded-lg bg-for-second-btn font-medium text-[10px] sm:text-sm text-color xl:w-60 text-center"
-                >
-                  View Property Details
-                </div>
-              </div>
-            </div>
-            <div class="p-6 border-button rounded-xl grid gap-4">
-              <img
-                src="./public/assets/homepage/hotel.png"
-                alt="hotel"
-                class="w-full"
-              />
-              <!-- hotel rating and info -->
-              <div class="flex flex-col gap-1">
-                <p class="font-semibold text-lg text-color">
-                  Rustic Retreat Cottage
-                </p>
-                <p class="font-medium text-sm text-color-addition-info">
-                  An elegant 3-bedroom, 2.5-bathroom townhouse in a gated
-                  community...
-                  <a
-                    href="#"
-                    class="text-color text-underline-color-for-pricing-read-more"
-                  >
-                    Read More
-                  </a>
-                </p>
-              </div>
-              <!-- facilities -->
-              <div
-                class="grid grid-cols-6 sm:flex items-center justify-self-start gap-2"
-              >
-                <div
-                  class="col-span-3 flex items-center gap-1 bg-for-logo-section rounded-3xl p-2 border-button"
-                >
-                  <img src="./public/assets/homepage/bed.svg" alt="bedrooms" />
-                  <p class="font-medium 2xl:text-lg text-sm text-color">
-                    4-Bedroom
-                  </p>
-                </div>
-                <div
-                  class="col-span-3 flex items-center gap-1 bg-for-logo-section rounded-3xl p-2 border-button"
-                >
-                  <img src="./public/assets/homepage/bath.svg" alt="bathroom" />
-                  <p class="font-medium 2xl:text-lg text-sm text-color">
-                    3-Bathroom
-                  </p>
-                </div>
-                <div
-                  class="col-span-2 flex items-center gap-1 bg-for-logo-section rounded-3xl p-2 border-button"
-                >
-                  <img src="./public/assets/homepage/villa.svg" alt="villa" />
-                  <p class="font-medium 2xl:text-lg text-sm text-color">
-                    Villa
-                  </p>
-                </div>
-              </div>
-              <!-- pricing -->
-              <div class="flex gap-4 items-center sm:gap-0 justify-between">
-                <div>
-                  <p class="font-medium text-sm text-color-addition-info">
-                    Price
-                  </p>
-                  <p class="font-semibold text-sm sm:text-lg text-color">
-                    $550,000
-                  </p>
-                </div>
-                <div
-                  class="px-5 py-[14px] rounded-lg bg-for-second-btn font-medium text-[10px] sm:text-sm text-color xl:w-60 text-center"
-                >
-                  View Property Details
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="flex justify-between items-center pt-4 border-top">
-            <a
-              href="#"
-              class="text-color font-medium text-sm xl:hidden rounded-lg border-button py-[8px] px-3 inline-block bg-for-logo-section"
-            >
-              View All Properties
-            </a>
-            <div class="hidden xl:inline-block">
-              <p class="text-lg font-medium text-color-addition-info">
-                <span class="text-color">01</span> of 60
-              </p>
-            </div>
-            <div class="flex gap-2 items-center">
-              <img
-                src="./public/assets/homepage/left.svg"
-                alt="left-button"
-                class="h-11 w-11 rounded-full border-button p-3.5"
-              />
-              <p class="text-xs font-medium text-color-addition-info xl:hidden">
-                <span class="text-color">01</span> of 60
-              </p>
-              <img
-                src="./public/assets/homepage/right.svg"
-                alt="right-button"
-                class="h-11 w-11 rounded-full p-3.5 border-button bg-for-logo-section"
-              />
-            </div>
-          </div>
-        </section>
+          </section>
+        </div>
         <!-- About our clients and experience fully responsive for every device -->
-        <section class="flex flex-col gap-8 px-3 xl:px-10 2xl:px-20">
-          <div>
-            <img
-              src="./public/assets/homepage/pricing-logo-star.png"
-              alt="pricing-logo-star"
-            />
-            <div class="flex justify-between items-end">
-              <div class="ml-2 mt-1 flex flex-col gap-3 xl:w-[64%]">
-                <p
-                  class="font-semibold text-2xl xl:text-4xl 2xl:text-5xl text-color"
+        <section class="px-3 xl:px-10 2xl:px-20">
+          <img
+            src="./public/assets/homepage/pricing-logo-star.png"
+            alt="pricing-logo-star"
+          />
+          <div class="flex flex-col ml-2 mt-1 gap-8">
+            <div>
+              <div class="grid xl:grid-cols-5 xl:place-items-end">
+                <div class="col-span-3 flex flex-col gap-3">
+                  <p
+                    class="font-semibold text-2xl xl:text-4xl 2xl:text-5xl text-color"
+                  >
+                    What Our Clients Say
+                  </p>
+                  <p
+                    class="font-medium text-sm sm:text-lg text-color-addition-info"
+                  >
+                    Read the success stories and heartfelt testimonials from our
+                    valued clients. Discover why they chose Estatein for their
+                    real estate needs.
+                  </p>
+                </div>
+                <a
+                  href="#"
+                  class="col-span-2 text-color font-medium text-sm sm:text-lg hidden text-center xl:inline-block rounded-lg border-button py-2 px-3 bg-for-logo-section"
                 >
-                  What Our Clients Say
-                </p>
-                <p
-                  class="font-medium text-sm sm:text-lg text-color-addition-info"
-                >
-                  Read the success stories and heartfelt testimonials from our
-                  valued clients. Discover why they chose Estatein for their
-                  real estate needs.
-                </p>
+                  View All Testimonials
+                </a>
               </div>
+            </div>
+            <div class="grid sm:grid-cols-6 gap-5">
+              <section class="col-span-3 lg:col-span-2">
+                <!-- clients reviews section -->
+                <div
+                  class="p-6 border-button rounded-xl grid gap-8 2xl:gap-10 min-h-full"
+                >
+                  <!-- first div for rating -->
+                  <div class="flex gap-2 xl:gap-4 items-center">
+                    <!-- first star -->
+                    <div
+                      class="p-2 border-button rounded-full inline-block bg-for-logo-section"
+                    >
+                      <img
+                        src="./public/assets/homepage/star.svg"
+                        alt="star"
+                        class=""
+                      />
+                    </div>
+                    <!-- second star -->
+                    <div
+                      class="p-2 border-button rounded-full inline-block bg-for-logo-section"
+                    >
+                      <img
+                        src="./public/assets/homepage/star.svg"
+                        alt="star"
+                        class=""
+                      />
+                    </div>
+                    <!-- third star -->
+                    <div
+                      class="p-2 border-button rounded-full inline-block bg-for-logo-section"
+                    >
+                      <img
+                        src="./public/assets/homepage/star.svg"
+                        alt="star"
+                        class=""
+                      />
+                    </div>
+                    <!-- fourth star -->
+                    <div
+                      class="p-2 border-button rounded-full inline-block bg-for-logo-section"
+                    >
+                      <img
+                        src="./public/assets/homepage/star.svg"
+                        alt="star"
+                        class=""
+                      />
+                    </div>
+                    <!-- fifth star -->
+                    <div
+                      class="p-2 border-button rounded-full inline-block bg-for-logo-section"
+                    >
+                      <img
+                        src="./public/assets/homepage/star.svg"
+                        alt="star"
+                        class=""
+                      />
+                    </div>
+                  </div>
+                  <!-- experience info -->
+                  <div class="flex flex-col gap-3">
+                    <p
+                      class="font-semibold text-lg xl:text-xl 2xl:text-2xl text-color"
+                    >
+                      Exceptional Service!
+                    </p>
+                    <p
+                      class="font-medium text-sm xl:text-base 2xl:text-lg text-color"
+                    >
+                      Our experience with Estatein was outstanding. Their team's
+                      dedication and professionalism made finding our dream home
+                      a breeze. Highly recommend!
+                    </p>
+                  </div>
+                  <!-- client card and his name -->
+                  <div class="flex gap-4 items-center">
+                    <img
+                      src="./public/assets/homepage/client.png"
+                      alt="client"
+                    />
+                    <div class="flex flex-col gap-1">
+                      <p
+                        class="text-color font-medium text-base xl:text-lg 2xl:text-xl"
+                      >
+                        Wade Warren
+                      </p>
+                      <p
+                        class="font-medium text-sm xl:text-base 2xl:text-lg text-color-addition-info"
+                      >
+                        USA, California
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </section>
+              <section class="hidden col-span-3 lg:col-span-2 sm:inline-block">
+                <!-- clients reviews section -->
+                <div
+                  class="p-6 border-button rounded-xl grid gap-8 2xl:gap-10 min-h-full"
+                >
+                  <!-- first div for rating -->
+                  <div class="flex gap-2 xl:gap-4 items-center">
+                    <!-- first star -->
+                    <div
+                      class="p-2 border-button rounded-full inline-block bg-for-logo-section"
+                    >
+                      <img
+                        src="./public/assets/homepage/star.svg"
+                        alt="star"
+                        class=""
+                      />
+                    </div>
+                    <!-- second star -->
+                    <div
+                      class="p-2 border-button rounded-full inline-block bg-for-logo-section"
+                    >
+                      <img
+                        src="./public/assets/homepage/star.svg"
+                        alt="star"
+                        class=""
+                      />
+                    </div>
+                    <!-- third star -->
+                    <div
+                      class="p-2 border-button rounded-full inline-block bg-for-logo-section"
+                    >
+                      <img
+                        src="./public/assets/homepage/star.svg"
+                        alt="star"
+                        class=""
+                      />
+                    </div>
+                    <!-- fourth star -->
+                    <div
+                      class="p-2 border-button rounded-full inline-block bg-for-logo-section"
+                    >
+                      <img
+                        src="./public/assets/homepage/star.svg"
+                        alt="star"
+                        class=""
+                      />
+                    </div>
+                    <!-- fifth star -->
+                    <div
+                      class="p-2 border-button rounded-full inline-block bg-for-logo-section"
+                    >
+                      <img
+                        src="./public/assets/homepage/star.svg"
+                        alt="star"
+                        class=""
+                      />
+                    </div>
+                  </div>
+                  <!-- experience info -->
+                  <div class="flex flex-col gap-3">
+                    <p
+                      class="font-semibold text-lg xl:text-xl 2xl:text-2xl text-color"
+                    >
+                      Efficient and Reliable
+                    </p>
+                    <p
+                      class="font-medium text-sm xl:text-base 2xl:text-lg text-color"
+                    >
+                      Estatein provided us with top-notch service. They helped
+                      us sell our property quickly and at a great price. We
+                      couldn't be happier with the results.
+                    </p>
+                  </div>
+                  <!-- client card and his name -->
+                  <div class="flex gap-4 items-center">
+                    <img
+                      src="./public/assets/homepage/client-emily.png"
+                      alt="client"
+                    />
+                    <div class="flex flex-col gap-1">
+                      <p
+                        class="text-color font-medium text-base xl:text-lg 2xl:text-xl"
+                      >
+                        Emelie Thomson
+                      </p>
+                      <p
+                        class="font-medium text-sm xl:text-base 2xl:text-lg text-color-addition-info"
+                      >
+                        USA, Florida
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </section>
+              <section class="lg:inline-block lg:col-span-2 hidden">
+                <!-- clients reviews section -->
+                <div
+                  class="p-6 border-button rounded-xl grid gap-8 2xl:gap-10 min-h-full"
+                >
+                  <!-- first div for rating -->
+                  <div class="flex gap-2 xl:gap-4 items-center">
+                    <!-- first star -->
+                    <div
+                      class="p-2 border-button rounded-full inline-block bg-for-logo-section"
+                    >
+                      <img
+                        src="./public/assets/homepage/star.svg"
+                        alt="star"
+                        class=""
+                      />
+                    </div>
+                    <!-- second star -->
+                    <div
+                      class="p-2 border-button rounded-full inline-block bg-for-logo-section"
+                    >
+                      <img
+                        src="./public/assets/homepage/star.svg"
+                        alt="star"
+                        class=""
+                      />
+                    </div>
+                    <!-- third star -->
+                    <div
+                      class="p-2 border-button rounded-full inline-block bg-for-logo-section"
+                    >
+                      <img
+                        src="./public/assets/homepage/star.svg"
+                        alt="star"
+                        class=""
+                      />
+                    </div>
+                    <!-- fourth star -->
+                    <div
+                      class="p-2 border-button rounded-full inline-block bg-for-logo-section"
+                    >
+                      <img
+                        src="./public/assets/homepage/star.svg"
+                        alt="star"
+                        class=""
+                      />
+                    </div>
+                    <!-- fifth star -->
+                    <div
+                      class="p-2 border-button rounded-full inline-block bg-for-logo-section"
+                    >
+                      <img
+                        src="./public/assets/homepage/star.svg"
+                        alt="star"
+                        class=""
+                      />
+                    </div>
+                  </div>
+                  <!-- experience info -->
+                  <div class="flex flex-col gap-3">
+                    <p
+                      class="font-semibold text-lg xl:text-xl 2xl:text-2xl text-color"
+                    >
+                      Trusted Advisors
+                    </p>
+                    <p
+                      class="font-medium text-sm xl:text-base 2xl:text-lg text-color"
+                    >
+                      The Estatein team guided us through the entire buying
+                      process. Their knowledge and commitment to our needs were
+                      impressive. Thank you for your support!
+                    </p>
+                  </div>
+                  <!-- client card and his name -->
+                  <div class="flex gap-4 items-center">
+                    <img
+                      src="./public/assets/homepage/client-john.png"
+                      alt="client"
+                    />
+                    <div class="flex flex-col gap-1">
+                      <p
+                        class="text-color font-medium text-base xl:text-lg 2xl:text-xl"
+                      >
+                        John Mans
+                      </p>
+                      <p
+                        class="font-medium text-sm xl:text-base 2xl:text-lg text-color-addition-info"
+                      >
+                        USA, Nevada
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </div>
+            <div class="flex justify-between items-center pt-4 border-top">
               <a
                 href="#"
-                class="text-color font-medium text-sm sm:text-lg hidden w-52 text-center xl:inline-block rounded-lg border-button py-2 px-3 bg-for-logo-section"
+                class="text-color font-medium text-sm xl:hidden rounded-lg border-button py-2 px-3 inline-block bg-for-logo-section"
               >
                 View All Testimonials
               </a>
-            </div>
-          </div>
-          <div class="grid sm:grid-cols-6 gap-5">
-            <section class="col-span-3 lg:col-span-2">
-              <!-- clients reviews section -->
-              <div
-                class="p-6 border-button rounded-xl grid gap-8 2xl:gap-10 min-h-full"
-              >
-                <!-- first div for rating -->
-                <div class="flex gap-2 xl:gap-4 items-center">
-                  <!-- first star -->
-                  <div
-                    class="p-2 border-button rounded-full inline-block bg-for-logo-section"
-                  >
-                    <img
-                      src="./public/assets/homepage/star.svg"
-                      alt="star"
-                      class=""
-                    />
-                  </div>
-                  <!-- second star -->
-                  <div
-                    class="p-2 border-button rounded-full inline-block bg-for-logo-section"
-                  >
-                    <img
-                      src="./public/assets/homepage/star.svg"
-                      alt="star"
-                      class=""
-                    />
-                  </div>
-                  <!-- third star -->
-                  <div
-                    class="p-2 border-button rounded-full inline-block bg-for-logo-section"
-                  >
-                    <img
-                      src="./public/assets/homepage/star.svg"
-                      alt="star"
-                      class=""
-                    />
-                  </div>
-                  <!-- fourth star -->
-                  <div
-                    class="p-2 border-button rounded-full inline-block bg-for-logo-section"
-                  >
-                    <img
-                      src="./public/assets/homepage/star.svg"
-                      alt="star"
-                      class=""
-                    />
-                  </div>
-                  <!-- fifth star -->
-                  <div
-                    class="p-2 border-button rounded-full inline-block bg-for-logo-section"
-                  >
-                    <img
-                      src="./public/assets/homepage/star.svg"
-                      alt="star"
-                      class=""
-                    />
-                  </div>
-                </div>
-                <!-- experience info -->
-                <div class="flex flex-col gap-3">
-                  <p
-                    class="font-semibold text-lg xl:text-xl 2xl:text-2xl text-color"
-                  >
-                    Exceptional Service!
-                  </p>
-                  <p
-                    class="font-medium text-sm xl:text-base 2xl:text-lg text-color"
-                  >
-                    Our experience with Estatein was outstanding. Their team's
-                    dedication and professionalism made finding our dream home a
-                    breeze. Highly recommend!
-                  </p>
-                </div>
-                <!-- client card and his name -->
-                <div class="flex gap-4 items-center">
-                  <img src="./public/assets/homepage/client.png" alt="client" />
-                  <div class="flex flex-col gap-1">
-                    <p
-                      class="text-color font-medium text-base xl:text-lg 2xl:text-xl"
-                    >
-                      Wade Warren
-                    </p>
-                    <p
-                      class="font-medium text-sm xl:text-base 2xl:text-lg text-color-addition-info"
-                    >
-                      USA, California
-                    </p>
-                  </div>
-                </div>
+              <div class="hidden xl:inline-block">
+                <p
+                  class="text-lg sm:text-xl font-medium text-color-addition-info"
+                >
+                  <span class="text-color">01</span> of 10
+                </p>
               </div>
-            </section>
-            <section class="hidden col-span-3 lg:col-span-2 sm:inline-block">
-              <!-- clients reviews section -->
-              <div
-                class="p-6 border-button rounded-xl grid gap-8 2xl:gap-10 min-h-full"
-              >
-                <!-- first div for rating -->
-                <div class="flex gap-2 xl:gap-4 items-center">
-                  <!-- first star -->
-                  <div
-                    class="p-2 border-button rounded-full inline-block bg-for-logo-section"
-                  >
-                    <img
-                      src="./public/assets/homepage/star.svg"
-                      alt="star"
-                      class=""
-                    />
-                  </div>
-                  <!-- second star -->
-                  <div
-                    class="p-2 border-button rounded-full inline-block bg-for-logo-section"
-                  >
-                    <img
-                      src="./public/assets/homepage/star.svg"
-                      alt="star"
-                      class=""
-                    />
-                  </div>
-                  <!-- third star -->
-                  <div
-                    class="p-2 border-button rounded-full inline-block bg-for-logo-section"
-                  >
-                    <img
-                      src="./public/assets/homepage/star.svg"
-                      alt="star"
-                      class=""
-                    />
-                  </div>
-                  <!-- fourth star -->
-                  <div
-                    class="p-2 border-button rounded-full inline-block bg-for-logo-section"
-                  >
-                    <img
-                      src="./public/assets/homepage/star.svg"
-                      alt="star"
-                      class=""
-                    />
-                  </div>
-                  <!-- fifth star -->
-                  <div
-                    class="p-2 border-button rounded-full inline-block bg-for-logo-section"
-                  >
-                    <img
-                      src="./public/assets/homepage/star.svg"
-                      alt="star"
-                      class=""
-                    />
-                  </div>
-                </div>
-                <!-- experience info -->
-                <div class="flex flex-col gap-3">
-                  <p
-                    class="font-semibold text-lg xl:text-xl 2xl:text-2xl text-color"
-                  >
-                    Efficient and Reliable
-                  </p>
-                  <p
-                    class="font-medium text-sm xl:text-base 2xl:text-lg text-color"
-                  >
-                    Estatein provided us with top-notch service. They helped us
-                    sell our property quickly and at a great price. We couldn't
-                    be happier with the results.
-                  </p>
-                </div>
-                <!-- client card and his name -->
-                <div class="flex gap-4 items-center">
-                  <img
-                    src="./public/assets/homepage/client-emily.png"
-                    alt="client"
-                  />
-                  <div class="flex flex-col gap-1">
-                    <p
-                      class="text-color font-medium text-base xl:text-lg 2xl:text-xl"
-                    >
-                      Emelie Thomson
-                    </p>
-                    <p
-                      class="font-medium text-sm xl:text-base 2xl:text-lg text-color-addition-info"
-                    >
-                      USA, Florida
-                    </p>
-                  </div>
-                </div>
+              <div class="flex gap-2 items-center">
+                <img
+                  src="./public/assets/homepage/left.svg"
+                  alt="left-button"
+                  class="h-8 w-8 sm:h-11 sm:w-11 rounded-full border-button p-2 sm:p-3.5"
+                />
+                <p
+                  class="text-sm sm:text-xl font-medium text-color-addition-info xl:hidden"
+                >
+                  <span class="text-color">01</span> of 60
+                </p>
+                <img
+                  src="./public/assets/homepage/right.svg"
+                  alt="left-button"
+                  class="h-8 w-8 sm:h-11 sm:w-11 rounded-full border-button bg-for-logo-section p-2 sm:p-3.5"
+                />
               </div>
-            </section>
-            <section class="lg:inline-block lg:col-span-2 hidden">
-              <!-- clients reviews section -->
-              <div
-                class="p-6 border-button rounded-xl grid gap-8 2xl:gap-10 min-h-full"
-              >
-                <!-- first div for rating -->
-                <div class="flex gap-2 xl:gap-4 items-center">
-                  <!-- first star -->
-                  <div
-                    class="p-2 border-button rounded-full inline-block bg-for-logo-section"
-                  >
-                    <img
-                      src="./public/assets/homepage/star.svg"
-                      alt="star"
-                      class=""
-                    />
-                  </div>
-                  <!-- second star -->
-                  <div
-                    class="p-2 border-button rounded-full inline-block bg-for-logo-section"
-                  >
-                    <img
-                      src="./public/assets/homepage/star.svg"
-                      alt="star"
-                      class=""
-                    />
-                  </div>
-                  <!-- third star -->
-                  <div
-                    class="p-2 border-button rounded-full inline-block bg-for-logo-section"
-                  >
-                    <img
-                      src="./public/assets/homepage/star.svg"
-                      alt="star"
-                      class=""
-                    />
-                  </div>
-                  <!-- fourth star -->
-                  <div
-                    class="p-2 border-button rounded-full inline-block bg-for-logo-section"
-                  >
-                    <img
-                      src="./public/assets/homepage/star.svg"
-                      alt="star"
-                      class=""
-                    />
-                  </div>
-                  <!-- fifth star -->
-                  <div
-                    class="p-2 border-button rounded-full inline-block bg-for-logo-section"
-                  >
-                    <img
-                      src="./public/assets/homepage/star.svg"
-                      alt="star"
-                      class=""
-                    />
-                  </div>
-                </div>
-                <!-- experience info -->
-                <div class="flex flex-col gap-3">
-                  <p
-                    class="font-semibold text-lg xl:text-xl 2xl:text-2xl text-color"
-                  >
-                    Trusted Advisors
-                  </p>
-                  <p
-                    class="font-medium text-sm xl:text-base 2xl:text-lg text-color"
-                  >
-                    The Estatein team guided us through the entire buying
-                    process. Their knowledge and commitment to our needs were
-                    impressive. Thank you for your support!
-                  </p>
-                </div>
-                <!-- client card and his name -->
-                <div class="flex gap-4 items-center">
-                  <img
-                    src="./public/assets/homepage/client-john.png"
-                    alt="client"
-                  />
-                  <div class="flex flex-col gap-1">
-                    <p
-                      class="text-color font-medium text-base xl:text-lg 2xl:text-xl"
-                    >
-                      John Mans
-                    </p>
-                    <p
-                      class="font-medium text-sm xl:text-base 2xl:text-lg text-color-addition-info"
-                    >
-                      USA, Nevada
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </section>
-          </div>
-          <div class="flex justify-between items-center pt-4 border-top">
-            <a
-              href="#"
-              class="text-color font-medium text-sm xl:hidden rounded-lg border-button py-2 px-3 inline-block bg-for-logo-section"
-            >
-              View All Testimonials
-            </a>
-            <div class="hidden xl:inline-block">
-              <p
-                class="text-lg sm:text-xl font-medium text-color-addition-info"
-              >
-                <span class="text-color">01</span> of 10
-              </p>
-            </div>
-            <div class="flex gap-2 items-center">
-              <img
-                src="./public/assets/homepage/left.svg"
-                alt="left-button"
-                class="h-11 w-11 rounded-full border-button p-3.5"
-              />
-              <p
-                class="text-sm sm:text-xl font-medium text-color-addition-info xl:hidden"
-              >
-                <span class="text-color">01</span> of 60
-              </p>
-              <img
-                src="./public/assets/homepage/right.svg"
-                alt="left-button"
-                class="h-11 w-11 rounded-full border-button bg-for-logo-section p-3.5"
-              />
             </div>
           </div>
         </section>
         <!-- section question -->
-        <section class="px-3 grid grid-flow-row gap-10 xl:px-10 2xl:px-20">
-          <!-- first div for heading etc -->
-          <div>
-            <img
-              src="./public/assets/homepage/pricing-logo-star.png"
-              alt="pricing-logo-star"
-            />
-            <div class="flex justify-between items-end">
-              <div class="ml-2 mt-1 flex flex-col gap-3 xl:w-[79%] 2xl:w-[53%]">
-                <p
-                  class="font-semibold text-2xl xl:text-4xl 2xl:text-5xl text-color"
+        <section class="px-3 sm:px-10 2xl:px-20">
+          <img
+            src="./public/assets/homepage/pricing-logo-star.png"
+            alt="pricing-logo-star"
+          />
+          <div class="ml-2 mt-1 grid grid-flow-row gap-10">
+            <!-- first div for heading etc -->
+            <div>
+              <div class="grid xl:grid-cols-5 xl:place-items-end">
+                <div class="col-span-3 flex flex-col gap-3">
+                  <p
+                    class="font-semibold text-2xl xl:text-4xl 2xl:text-5xl text-color"
+                  >
+                    Frequently Asked Questions
+                  </p>
+                  <p
+                    class="font-medium text-sm xl:text-lg text-color-addition-info"
+                  >
+                    Find answers to common questions about Estatein's services,
+                    property listings, and the real estate process. We're here
+                    to provide clarity and assist you every step of the way.
+                  </p>
+                </div>
+                <a
+                  href="#"
+                  class="col-span-2 text-color font-medium text-sm hidden text-center xl:inline-block rounded-lg border-button py-2 px-3 bg-for-logo-section"
                 >
-                  Frequently Asked Questions
+                  View All FAQ’s
+                </a>
+              </div>
+            </div>
+            <!-- Question and answers -->
+            <div class="grid sm:grid-cols-4 lg:grid-cols-6 gap-5">
+              <!-- first question-->
+              <div
+                class="p-10 border-button rounded-xl flex sm:col-span-2 lg:col-span-2 flex-col items-start gap-6 justify-between"
+              >
+                <!-- first div for rating -->
+                <p class="font-semibold text-xl text-color">
+                  How do I search for properties on Estatein?
                 </p>
-                <p
-                  class="font-medium text-sm xl:text-lg text-color-addition-info"
+                <!-- experience info -->
+                <p class="font-medium text-base text-color-addition-info">
+                  Learn how to use our user-friendly search tools to find
+                  properties that match your criteria.
+                </p>
+                <!-- btn -->
+                <a
+                  href="#"
+                  class="text-sm font-medium text-white py-[14px] px-5 border-button bg-for-logo-section rounded-lg"
                 >
-                  Find answers to common questions about Estatein's services,
-                  property listings, and the real estate process. We're here to
-                  provide clarity and assist you every step of the way.
+                  Read More
+                </a>
+              </div>
+
+              <!-- second question -->
+              <div
+                class="sm:col-span-2 lg:col-span-2 hidden p-10 border-button rounded-xl sm:flex flex-col items-start gap-6"
+              >
+                <!-- first div for rating -->
+                <p class="font-semibold text-xl text-color">
+                  What documents do I need to sell my property through Estatein?
+                </p>
+                <!-- experience info -->
+                <p class="font-medium text-base text-color-addition-info">
+                  Find out about the necessary documentation for listing your
+                  property with us.
+                </p>
+                <!-- client card and his name -->
+                <a
+                  href="#"
+                  class="text-sm font-medium text-white py-[14px] px-5 border-button bg-for-logo-section rounded-lg"
+                >
+                  Read More
+                </a>
+              </div>
+
+              <!-- third question -->
+              <div
+                class="lg:col-span-2 lg:flex hidden p-10 border-button rounded-xl flex-col items-start gap-6 justify-between"
+              >
+                <!-- first div for rating -->
+                <p class="font-semibold text-xl text-color">
+                  How can I contact an Estatein agent?
+                </p>
+                <!-- experience info -->
+                <p class="font-medium text-base text-color-addition-info">
+                  Discover the different ways you can get in touch with our
+                  experienced agents.
+                </p>
+                <!-- client card and his name -->
+                <a
+                  href="#"
+                  class="text-sm font-medium text-white py-[14px] px-5 border-button bg-for-logo-section rounded-lg"
+                >
+                  Read More
+                </a>
+              </div>
+            </div>
+            <!-- third div for all pages buttons -->
+            <div class="flex justify-between items-center pt-4 border-top">
+              <a
+                href="#"
+                class="text-color font-medium text-sm xl:hidden rounded-lg border-button py-[8px] px-3 inline-block bg-for-logo-section"
+              >
+                View All FAQ'S
+              </a>
+              <div class="hidden xl:inline-block">
+                <p
+                  class="text-lg sm:text-xl font-medium text-color-addition-info"
+                >
+                  <span class="text-color">01</span> of 10
                 </p>
               </div>
-              <a
-                href="#"
-                class="text-color font-medium text-sm hidden w-36 text-center xl:inline-block rounded-lg border-button py-[8px] px-3 bg-for-logo-section"
-              >
-                View All FAQ’s
-              </a>
-            </div>
-          </div>
-          <!-- Question and answers -->
-          <div class="grid sm:grid-cols-4 lg:grid-cols-6 gap-5">
-            <!-- first question-->
-            <div
-              class="p-10 border-button rounded-xl flex sm:col-span-2 lg:col-span-2 flex-col items-start gap-6 justify-between"
-            >
-              <!-- first div for rating -->
-              <p class="font-semibold text-xl text-color">
-                How do I search for properties on Estatein?
-              </p>
-              <!-- experience info -->
-              <p class="font-medium text-base text-color-addition-info">
-                Learn how to use our user-friendly search tools to find
-                properties that match your criteria.
-              </p>
-              <!-- btn -->
-              <a
-                href="#"
-                class="text-sm font-medium text-white py-[14px] px-5 border-button bg-for-logo-section rounded-lg"
-              >
-                Read More
-              </a>
-            </div>
-
-            <!-- second question -->
-            <div
-              class="sm:col-span-2 lg:col-span-2 hidden p-10 border-button rounded-xl sm:flex flex-col items-start gap-6"
-            >
-              <!-- first div for rating -->
-              <p class="font-semibold text-xl text-color">
-                What documents do I need to sell my property through Estatein?
-              </p>
-              <!-- experience info -->
-              <p class="font-medium text-base text-color-addition-info">
-                Find out about the necessary documentation for listing your
-                property with us.
-              </p>
-              <!-- client card and his name -->
-              <a
-                href="#"
-                class="text-sm font-medium text-white py-[14px] px-5 border-button bg-for-logo-section rounded-lg"
-              >
-                Read More
-              </a>
-            </div>
-
-            <!-- third question -->
-            <div
-              class="lg:col-span-2 lg:flex hidden p-10 border-button rounded-xl flex-col items-start gap-6 justify-between"
-            >
-              <!-- first div for rating -->
-              <p class="font-semibold text-xl text-color">
-                How can I contact an Estatein agent?
-              </p>
-              <!-- experience info -->
-              <p class="font-medium text-base text-color-addition-info">
-                Discover the different ways you can get in touch with our
-                experienced agents.
-              </p>
-              <!-- client card and his name -->
-              <a
-                href="#"
-                class="text-sm font-medium text-white py-[14px] px-5 border-button bg-for-logo-section rounded-lg"
-              >
-                Read More
-              </a>
-            </div>
-          </div>
-          <!-- third div for all pages buttons -->
-          <div class="flex justify-between items-center pt-4 border-top">
-            <a
-              href="#"
-              class="text-color font-medium text-sm xl:hidden rounded-lg border-button py-[8px] px-3 inline-block bg-for-logo-section"
-            >
-              View All Testimonials
-            </a>
-            <div class="hidden xl:inline-block">
-              <p
-                class="text-lg sm:text-xl font-medium text-color-addition-info"
-              >
-                <span class="text-color">01</span> of 10
-              </p>
-            </div>
-            <div class="flex gap-2 items-center">
-              <img
-                src="./public/assets/homepage/left.svg"
-                alt="left-button"
-                class="h-11 w-11 rounded-full border-button p-3.5"
-              />
-              <p
-                class="text-[13px] sm:text-xl font-medium text-color-addition-info xl:hidden"
-              >
-                <span class="text-color">01</span> of 60
-              </p>
-              <img
-                src="./public/assets/homepage/right.svg"
-                alt="left-button"
-                class="h-11 w-11 rounded-full border-button bg-for-logo-section p-3.5"
-              />
+              <div class="flex gap-2 items-center">
+                <img
+                  src="./public/assets/homepage/left.svg"
+                  alt="left-button"
+                  class="h-8 w-8 sm:h-11 sm:w-11 rounded-full border-button p-2 sm:p-3.5"
+                />
+                <p
+                  class="text-xs sm:text-xl font-medium text-color-addition-info xl:hidden"
+                >
+                  <span class="text-color">01</span> of 60
+                </p>
+                <img
+                  src="./public/assets/homepage/right.svg"
+                  alt="left-button"
+                  class="h-8 w-8 sm:h-11 sm:w-11 rounded-full border-button bg-for-logo-section p-2 sm:p-3.5"
+                />
+              </div>
             </div>
           </div>
         </section>
