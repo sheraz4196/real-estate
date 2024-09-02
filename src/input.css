@@ -54,10 +54,6 @@
   color: rgba(153, 153, 153, 1);
 }
 
-.linear-colors {
-  background: linear-gradient(134.79deg, rgba(112, 59, 247, .5) -0.01%, rgba(112, 59, 247, 0) 9.65%);
-}
-
 .border-star {
   border: 1px solid rgba(112, 59, 247, 1);
 }
@@ -66,57 +62,26 @@
   border: 1px solid rgba(38, 38, 38, 1);
 }
 
-.border-linear {
+/* .border-linear {
   border: 1px solid;
   border-image: linear-gradient(to bottom right, rgba(112, 59, 247, 1) 12.99%, rgba(38, 38, 38, 1) 39%) 1;
   border-radius: inherit;
   z-index: -1;
-}
+} */
 
 .bg-linear-gradient {
   background: linear-gradient(95.93deg, #262626 -14.82%, rgba(38, 38, 38, 0) 40.46%);
 }
 
-.border-card-left {
-  border-left: 1px solid rgba(112, 59, 247, 1);
-}
-
-.border-left {
-  border-left: 1px solid rgba(38, 38, 38, 1);
-}
-
-.border-color {
-  border-color: rgba(38, 38, 38, 1);
-}
-
-.border-top {
-  border-top: 1px solid rgba(38, 38, 38, 1);
-}
-
-.border-top-bottom {
-  border-top: 1px solid rgba(38, 38, 38, 1);
-  border-bottom: 1px solid rgba(38, 38, 38, 1);
-}
 
 .border-bottom {
   border-bottom: 1px solid rgba(38, 38, 38, 1);
-}
-
-.border-color {
-  border-color: rgba(38, 38, 38, 1);
-}
-
-.border-outline {
-  outline: 4px solid rgba(26, 26, 26, 1);
 }
 
 .border-outline-two {
   outline: 8px solid rgba(26, 26, 26, 1);
 }
 
-.h-boxes {
-  height: 80%;
-}
 
 .spparow-bg-color {
   background: rgba(112, 59, 247, 1);
