@@ -896,10 +896,6 @@ video {
   overflow: hidden;
 }
 
-.rounded {
-  border-radius: 0.25rem;
-}
-
 .rounded-3xl {
   border-radius: 1.5rem;
 }
@@ -952,6 +948,21 @@ video {
 .border-\[\#703BF7\] {
   --tw-border-opacity: 1;
   border-color: rgb(112 59 247 / var(--tw-border-opacity));
+}
+
+.border-b-\[\#262626\] {
+  --tw-border-opacity: 1;
+  border-bottom-color: rgb(38 38 38 / var(--tw-border-opacity));
+}
+
+.bg-\[\#141414\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(20 20 20 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#1A1A1A\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(26 26 26 / var(--tw-bg-opacity));
 }
 
 .bg-\[\#703BF7\] {
@@ -1174,6 +1185,10 @@ video {
   font-weight: 600;
 }
 
+.leading-4 {
+  line-height: 1rem;
+}
+
 .leading-5 {
   line-height: 1.25rem;
 }
@@ -1183,13 +1198,34 @@ video {
   color: rgb(153 153 153 / var(--tw-text-opacity));
 }
 
+.text-\[\#FFFFFF\] {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.underline {
+  text-decoration-line: underline;
+}
+
 .no-underline {
   text-decoration-line: none;
+}
+
+.decoration-gray-600 {
+  text-decoration-color: #4b5563;
+}
+
+.decoration-white\/90 {
+  text-decoration-color: rgb(255 255 255 / 0.9);
+}
+
+.decoration-1 {
+  text-decoration-thickness: 1px;
 }
 
 .outline-none {
@@ -1237,54 +1273,9 @@ video {
   background-color: rgba(26, 26, 26, 1);
 }
 
-.bg-color-all {
-  background-color: rgba(20, 20, 20, 1);
-}
-
-.bg-for-logo-section {
-  background: rgba(26, 26, 26, 1);
-}
-
-.bg-for-second-btn {
-  background-color: rgba(112, 59, 247, 1);
-}
-
-.text-size {
-  font-size: 9px;
-  line-height: 1rem;
-}
-
-.text-color {
-  color: rgba(255, 255, 255, 1);
-}
-
-.bg-for-hamburgerbutton {
-  background-color: rgba(255, 255, 255, 1);
-}
-
-.text-underline-white {
-  -webkit-text-decoration: underline rgba(255, 255, 255, 0.9);
-          text-decoration: underline rgba(255, 255, 255, 0.9);
-  text-decoration-thickness: 1px;
-}
-
-.text-underline-color-for-pricing-read-more {
-  -webkit-text-decoration: underline rgba(153, 153, 153, 1);
-          text-decoration: underline rgba(153, 153, 153, 1);
-  text-decoration-thickness: 1px;
-}
-
 .bg-linear-gradient {
   background: linear-gradient(95.93deg, #262626 -14.82%, rgba(38, 38, 38, 0) 40.46%);
 }
-
-.border-bottom {
-  border-bottom: 1px solid rgba(38, 38, 38, 1);
-}
-
-/* .rounded {
-  border-radius: 100px;
-} */
 
 .postion-members {
   position: absolute;
