@@ -604,6 +604,10 @@ video {
   bottom: -8rem;
 }
 
+.-bottom-5 {
+  bottom: -1.25rem;
+}
+
 .-right-3 {
   right: -0.75rem;
 }
@@ -970,6 +974,10 @@ video {
   background-color: rgb(112 59 247 / var(--tw-bg-opacity));
 }
 
+.bg-header-bg {
+  background-color: rgba(26, 26, 26, 1);
+}
+
 .bg-slate-400\/40 {
   background-color: rgb(148 163 184 / 0.4);
 }
@@ -978,8 +986,20 @@ video {
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
 }
 
-.bg-linear-colors {
-  background-image: linear-gradient(134.79deg, rgba(112, 59, 247, 0.5) -0.01%, rgba(112, 59, 247, 0) 9.65%);
+.bg-img-for-header {
+  background-image: url('./assets/homepage/abstract-design.png');
+}
+
+.bg-cover {
+  background-size: cover;
+}
+
+.bg-center {
+  background-position: center;
+}
+
+.bg-no-repeat {
+  background-repeat: no-repeat;
 }
 
 .p-1 {
@@ -1126,6 +1146,10 @@ video {
   text-align: center;
 }
 
+.font-urbanist {
+  font-family: Urbanist, sans-serif;
+}
+
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
@@ -1259,27 +1283,6 @@ video {
      border-image: linear-gradient(to bottom right, rgba(112, 59, 247, 1) 12.99%, rgba(38, 38, 38, 1) 39%) 1;
   border-radius: inherit;
   z-index: -1;
-}
-
-.font-urbanist {
-  font-family: "Urbanist";
-}
-
-.bg-img-for-header {
-  background-image: url(/public/assets/homepage/abstract-design.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-color: rgba(26, 26, 26, 1);
-}
-
-.bg-linear-gradient {
-  background: linear-gradient(95.93deg, #262626 -14.82%, rgba(38, 38, 38, 0) 40.46%);
-}
-
-.postion-members {
-  position: absolute;
-  bottom: -20px;
 }
 
 @media (min-width: 640px) {
