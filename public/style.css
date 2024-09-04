@@ -656,6 +656,14 @@ video {
   grid-column: span 5 / span 5;
 }
 
+.col-span-11 {
+  grid-column: span 11 / span 11;
+}
+
+.col-span-10 {
+  grid-column: span 10 / span 10;
+}
+
 .row-span-4 {
   grid-row: span 4 / span 4;
 }
@@ -744,6 +752,10 @@ video {
   height: 2.5rem;
 }
 
+.h-2 {
+  height: 0.5rem;
+}
+
 .min-h-full {
   min-height: 100%;
 }
@@ -800,8 +812,20 @@ video {
   width: 2.5rem;
 }
 
+.w-2 {
+  width: 0.5rem;
+}
+
+.w-8 {
+  width: 2rem;
+}
+
 .transform {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.resize-none {
+  resize: none;
 }
 
 .list-none {
@@ -832,6 +856,10 @@ video {
   grid-template-columns: repeat(6, minmax(0, 1fr));
 }
 
+.grid-cols-12 {
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+}
+
 .grid-rows-2 {
   grid-template-rows: repeat(2, minmax(0, 1fr));
 }
@@ -844,12 +872,28 @@ video {
   flex-direction: column-reverse;
 }
 
+.place-content-end {
+  place-content: end;
+}
+
+.place-content-between {
+  place-content: space-between;
+}
+
 .place-items-end {
   place-items: end;
 }
 
+.place-items-center {
+  place-items: center;
+}
+
 .items-start {
   align-items: flex-start;
+}
+
+.items-end {
+  align-items: flex-end;
 }
 
 .items-center {
@@ -932,6 +976,22 @@ video {
   gap: 2rem;
 }
 
+.place-self-end {
+  place-self: end;
+}
+
+.place-self-center {
+  place-self: center;
+}
+
+.self-end {
+  align-self: flex-end;
+}
+
+.self-center {
+  align-self: center;
+}
+
 .justify-self-start {
   justify-self: start;
 }
@@ -996,6 +1056,11 @@ video {
 .border-\[\#703BF7\] {
   --tw-border-opacity: 1;
   border-color: rgb(112 59 247 / var(--tw-border-opacity));
+}
+
+.border-purple-500 {
+  --tw-border-opacity: 1;
+  border-color: rgb(168 85 247 / var(--tw-border-opacity));
 }
 
 .border-b-\[\#262626\] {
@@ -1189,6 +1254,10 @@ video {
   text-align: center;
 }
 
+.text-end {
+  text-align: end;
+}
+
 .font-urbanist {
   font-family: Urbanist, sans-serif;
 }
@@ -1318,6 +1387,10 @@ video {
      border-image: linear-gradient(to bottom right, rgba(112, 59, 247, 1) 12.99%, rgba(38, 38, 38, 1) 39%) 1;
   border-radius: inherit;
   z-index: -1;
+}
+
+.last\:justify-items-end:last-child {
+  justify-items: end;
 }
 
 @media (min-width: 640px) {
@@ -1832,6 +1905,14 @@ video {
 
   .xl\:gap-12 {
     gap: 3rem;
+  }
+
+  .xl\:gap-5 {
+    gap: 1.25rem;
+  }
+
+  .xl\:gap-6 {
+    gap: 1.5rem;
   }
 
   .xl\:rounded-none {
