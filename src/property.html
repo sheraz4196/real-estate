@@ -6,8 +6,8 @@ i<!DOCTYPE html>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>property page</title>
   </head>
-  <body class="bg-[#141414] font-urbanist">
-    <div class="main-container flex flex-col gap-20 lg:gap-48">
+  <body class="bg-[#141414] font-urbanist relative">
+    <div class="main-container grid absolute top-0 left-0 gap-20 lg:gap-48">
       <!-- banner header and first two sections -->
       <div class="relative flex flex-col gap-10">
         <div>
@@ -17,7 +17,7 @@ i<!DOCTYPE html>
             <section
               class="bg-img-for-header bg-header-bg bg-no-repeat bg-center bg-cover text-white grid grid-flow-col justify-items-end items-center p-3"
             >
-              <div class="text-sm leading-4 text-[#FFFFFF] font-medium">
+              <div class="text-[10px] leading-4 text-[#FFFFFF] font-medium">
                 <p class="inline-block sm:text-lg 2xl:text-2xl">
                   ✨Discover Your Dream Property with Estatein
                 </p>
@@ -149,10 +149,21 @@ i<!DOCTYPE html>
             <a
               href="#"
               class="bg-[#703BF7] py-3.5 px-5 rounded-lg sm:flex items-center gap-1.5 2xl:gap-2 text-sm 2xl:text-lg"
-              ><img
-                src="/public/assets/propertypage/search.svg"
-                alt="search-icon"
-              />
+              ><svg
+                width="20"
+                height="21"
+                viewBox="0 0 20 21"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M19 19.5L13.8033 14.3033M13.8033 14.3033C15.1605 12.9461 16 11.0711 16 9C16 4.85786 12.6421 1.5 8.5 1.5C4.35786 1.5 1 4.85786 1 9C1 13.1421 4.35786 16.5 8.5 16.5C10.5711 16.5 12.4461 15.6605 13.8033 14.3033Z"
+                  stroke="white"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
               <p class="text-[#FFFFFF] hidden sm:inline-block">Find Property</p>
             </a>
           </div>
@@ -166,20 +177,40 @@ i<!DOCTYPE html>
             >
               <div class="grid grid-flow-col items-center gap-2">
                 <div>
-                  <img
-                    src="/public/assets/propertypage/location.svg"
-                    alt="location"
-                  />
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M11.5397 22.351C11.57 22.3685 11.5937 22.3821 11.6105 22.3915L11.6384 22.4071C11.8613 22.5294 12.1378 22.5285 12.3608 22.4075L12.3895 22.3915C12.4063 22.3821 12.43 22.3685 12.4603 22.351C12.5207 22.316 12.607 22.265 12.7155 22.1982C12.9325 22.0646 13.2388 21.8676 13.6046 21.6091C14.3351 21.0931 15.3097 20.3274 16.2865 19.3273C18.2307 17.3368 20.25 14.3462 20.25 10.5C20.25 5.94365 16.5563 2.25 12 2.25C7.44365 2.25 3.75 5.94365 3.75 10.5C3.75 14.3462 5.76932 17.3368 7.71346 19.3273C8.69025 20.3274 9.66491 21.0931 10.3954 21.6091C10.7612 21.8676 11.0675 22.0646 11.2845 22.1982C11.393 22.265 11.4793 22.316 11.5397 22.351ZM12 13.5C13.6569 13.5 15 12.1569 15 10.5C15 8.84315 13.6569 7.5 12 7.5C10.3431 7.5 9 8.84315 9 10.5C9 12.1569 10.3431 13.5 12 13.5Z"
+                      fill="#999999"
+                    />
+                  </svg>
                 </div>
                 <div class="border-l border-[#262626] h-5"></div>
                 <div class="text-[#999999] text-sm 2xl:text-lg">Location</div>
               </div>
               <div class="p-2 bg-[#1A1A1A] rounded-full">
-                <img
-                  src="/public/assets/propertypage/arrow-bottom.svg"
-                  alt="bottom-arrow-icon"
-                  class="h-4 w-4"
-                />
+                <svg
+                  width="18"
+                  height="18"
+                  viewBox="0 0 18 10"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M16.7002 1.25L9.2002 8.75L1.7002 1.25"
+                    stroke="white"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
               </div>
             </div>
             <!-- second -->
@@ -188,10 +219,24 @@ i<!DOCTYPE html>
             >
               <div class="grid grid-flow-col items-center gap-2">
                 <div>
-                  <img
-                    src="/public/assets/propertypage/property.svg"
-                    alt="property"
-                  />
+                  <svg
+                    width="25"
+                    height="24"
+                    viewBox="0 0 25 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M19.2067 3.70481C19.596 3.56325 19.7968 3.13293 19.6552 2.74365C19.5137 2.35438 19.0834 2.15356 18.6941 2.29511L6.20056 6.83822V2.99996C6.20056 2.58575 5.86478 2.24996 5.45056 2.24996H3.95056C3.53635 2.24996 3.20056 2.58575 3.20056 2.99996V7.92913L2.19409 8.29511C1.80482 8.43667 1.604 8.86699 1.74555 9.25627C1.88711 9.64554 2.31743 9.84636 2.70671 9.7048L19.2067 3.70481Z"
+                      fill="#999999"
+                    />
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M3.21952 11.1145L18.2006 5.66684V9.08833L22.2067 10.5451C22.596 10.6867 22.7968 11.117 22.6552 11.5063C22.5137 11.8955 22.0834 12.0964 21.6941 11.9548L21.2004 11.7753V20.25H21.9506C22.3648 20.25 22.7006 20.5857 22.7006 21C22.7006 21.4142 22.3648 21.75 21.9506 21.75H2.45056C2.03635 21.75 1.70056 21.4142 1.70056 21C1.70056 20.5857 2.03635 20.25 2.45056 20.25H3.20056V11.1213L3.21952 11.1145ZM18.2006 20.25V10.6844L19.7004 11.2298V20.25H18.2006ZM9.20056 14.25C8.78635 14.25 8.45056 14.5857 8.45056 15V19.5C8.45056 19.9142 8.78635 20.25 9.20056 20.25H12.2006C12.6148 20.25 12.9506 19.9142 12.9506 19.5V15C12.9506 14.5857 12.6148 14.25 12.2006 14.25H9.20056Z"
+                      fill="#999999"
+                    />
+                  </svg>
                 </div>
                 <div class="border-l border-[#262626] h-5"></div>
                 <div class="text-[#999999] text-sm 2xl:text-lg">
@@ -199,11 +244,21 @@ i<!DOCTYPE html>
                 </div>
               </div>
               <div class="p-2 bg-[#1A1A1A] rounded-full">
-                <img
-                  src="/public/assets/propertypage/arrow-bottom.svg"
-                  alt="bottom-arrow-icon"
-                  class="h-4 w-4"
-                />
+                <svg
+                  width="18"
+                  height="18"
+                  viewBox="0 0 18 10"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M16.7002 1.25L9.2002 8.75L1.7002 1.25"
+                    stroke="white"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
               </div>
             </div>
             <!-- third -->
@@ -212,10 +267,28 @@ i<!DOCTYPE html>
             >
               <div class="grid grid-flow-col items-center gap-2">
                 <div>
-                  <img
-                    src="/public/assets/propertypage/range.svg"
-                    alt="range"
-                  />
+                  <svg
+                    width="25"
+                    height="24"
+                    viewBox="0 0 25 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M12.4004 7.5C11.1577 7.5 10.1504 8.50736 10.1504 9.75C10.1504 10.9926 11.1577 12 12.4004 12C13.643 12 14.6504 10.9926 14.6504 9.75C14.6504 8.50736 13.643 7.5 12.4004 7.5Z"
+                      fill="#999999"
+                    />
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M1.90039 4.875C1.90039 3.83947 2.73986 3 3.77539 3H21.0254C22.0609 3 22.9004 3.83947 22.9004 4.875V14.625C22.9004 15.6605 22.0609 16.5 21.0254 16.5H3.77539C2.73986 16.5 1.90039 15.6605 1.90039 14.625V4.875ZM8.65039 9.75C8.65039 7.67893 10.3293 6 12.4004 6C14.4715 6 16.1504 7.67893 16.1504 9.75C16.1504 11.8211 14.4715 13.5 12.4004 13.5C10.3293 13.5 8.65039 11.8211 8.65039 9.75ZM19.1504 9C18.7362 9 18.4004 9.33579 18.4004 9.75V9.7575C18.4004 10.1717 18.7362 10.5075 19.1504 10.5075H19.1579C19.5721 10.5075 19.9079 10.1717 19.9079 9.7575V9.75C19.9079 9.33579 19.5721 9 19.1579 9H19.1504ZM4.90039 9.75C4.90039 9.33579 5.23618 9 5.65039 9H5.65789C6.0721 9 6.40789 9.33579 6.40789 9.75V9.7575C6.40789 10.1717 6.0721 10.5075 5.65789 10.5075H5.65039C5.23618 10.5075 4.90039 10.1717 4.90039 9.7575V9.75Z"
+                      fill="#999999"
+                    />
+                    <path
+                      d="M2.65039 18C2.23618 18 1.90039 18.3358 1.90039 18.75C1.90039 19.1642 2.23618 19.5 2.65039 19.5C8.05044 19.5 13.2806 20.2222 18.2502 21.5749C19.4407 21.899 20.6504 21.0168 20.6504 19.7551V18.75C20.6504 18.3358 20.3146 18 19.9004 18H2.65039Z"
+                      fill="#999999"
+                    />
+                  </svg>
                 </div>
                 <div class="border-l border-[#262626] h-5"></div>
                 <div class="text-[#999999] text-sm 2xl:text-lg">
@@ -223,11 +296,21 @@ i<!DOCTYPE html>
                 </div>
               </div>
               <div class="p-2 bg-[#1A1A1A] rounded-full">
-                <img
-                  src="/public/assets/propertypage/arrow-bottom.svg"
-                  alt="bottom-arrow-icon"
-                  class="h-4 w-4"
-                />
+                <svg
+                  width="18"
+                  height="18"
+                  viewBox="0 0 18 10"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M16.7002 1.25L9.2002 8.75L1.7002 1.25"
+                    stroke="white"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
               </div>
             </div>
             <!-- fourth -->
@@ -236,7 +319,26 @@ i<!DOCTYPE html>
             >
               <div class="grid grid-flow-col items-center gap-2">
                 <div>
-                  <img src="/public/assets/propertypage/size.svg" alt="size" />
+                  <svg
+                    width="25"
+                    height="24"
+                    viewBox="0 0 25 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M12.9775 1.60217C12.744 1.46594 12.4552 1.46594 12.2217 1.60217L3.59961 6.63172L12.5996 11.8817L21.5996 6.63172L12.9775 1.60217Z"
+                      fill="#999999"
+                    />
+                    <path
+                      d="M22.3496 7.93078L13.3496 13.1808V22.1808L21.9775 17.1478C22.2079 17.0134 22.3496 16.7668 22.3496 16.5V7.93078Z"
+                      fill="#999999"
+                    />
+                    <path
+                      d="M11.8496 22.1808V13.1808L2.84961 7.93078V16.5C2.84961 16.7668 2.99129 17.0134 3.22171 17.1478L11.8496 22.1808Z"
+                      fill="#999999"
+                    />
+                  </svg>
                 </div>
                 <div class="border-l border-[#262626] h-5"></div>
                 <div class="text-[#999999] text-sm 2xl:text-lg">
@@ -244,11 +346,21 @@ i<!DOCTYPE html>
                 </div>
               </div>
               <div class="p-2 bg-[#1A1A1A] rounded-full">
-                <img
-                  src="/public/assets/propertypage/arrow-bottom.svg"
-                  alt="bottom-arrow-icon"
-                  class="h-4 w-4"
-                />
+                <svg
+                  width="18"
+                  height="18"
+                  viewBox="0 0 18 10"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M16.7002 1.25L9.2002 8.75L1.7002 1.25"
+                    stroke="white"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
               </div>
             </div>
             <!-- fifth -->
@@ -257,20 +369,40 @@ i<!DOCTYPE html>
             >
               <div class="grid grid-flow-col items-center gap-2">
                 <div>
-                  <img
-                    src="/public/assets/propertypage/calender.svg"
-                    alt="Calender"
-                  />
+                  <svg
+                    width="25"
+                    height="24"
+                    viewBox="0 0 25 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M7.5498 2.25C7.96402 2.25 8.2998 2.58579 8.2998 3V4.5H17.2998V3C17.2998 2.58579 17.6356 2.25 18.0498 2.25C18.464 2.25 18.7998 2.58579 18.7998 3V4.5H19.5498C21.2067 4.5 22.5498 5.84315 22.5498 7.5V18.75C22.5498 20.4069 21.2067 21.75 19.5498 21.75H6.0498C4.39295 21.75 3.0498 20.4069 3.0498 18.75V7.5C3.0498 5.84315 4.39295 4.5 6.0498 4.5H6.7998V3C6.7998 2.58579 7.13559 2.25 7.5498 2.25ZM21.0498 11.25C21.0498 10.4216 20.3782 9.75 19.5498 9.75H6.0498C5.22138 9.75 4.5498 10.4216 4.5498 11.25V18.75C4.5498 19.5784 5.22138 20.25 6.0498 20.25H19.5498C20.3782 20.25 21.0498 19.5784 21.0498 18.75V11.25Z"
+                      fill="#999999"
+                    />
+                  </svg>
                 </div>
                 <div class="border-l border-[#262626] h-5"></div>
                 <div class="text-[#999999] text-sm 2xl:text-lg">Build Year</div>
               </div>
               <div class="p-2 bg-[#1A1A1A] rounded-full">
-                <img
-                  src="/public/assets/propertypage/arrow-bottom.svg"
-                  alt="bottom-arrow-icon"
-                  class="h-4 w-4"
-                />
+                <svg
+                  width="18"
+                  height="18"
+                  viewBox="0 0 18 10"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M16.7002 1.25L9.2002 8.75L1.7002 1.25"
+                    stroke="white"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
               </div>
             </div>
           </div>
@@ -308,7 +440,7 @@ i<!DOCTYPE html>
                 <!-- location hotel -->
                 <div class="flex flex-col gap-4 2xl:gap-5 items-start">
                   <div
-                    class="text-xs sm:text-sm 2xl:text-lg font-medium text-[#FFFFFF] border border-[#262626] bg-[#1A1A1A] px-3 py-1.5 rounded-3xl"
+                    class="text-xs 2xl:text-lg font-medium text-[#FFFFFF] border border-[#262626] bg-[#1A1A1A] px-3 py-1.5 rounded-3xl"
                   >
                     Coastal Escapes - Where Waves Beckon
                   </div>
@@ -338,7 +470,7 @@ i<!DOCTYPE html>
                     </p>
                   </div>
                   <div
-                    class="px-5 py-3.5 rounded-lg bg-[#703BF7] font-medium text-xs sm:text-sm text-[#FFFFFF] xl:w-60 text-center"
+                    class="px-5 py-3.5 rounded-lg bg-[#703BF7] font-medium text-xs sm:text-sm text-[#FFFFFF] text-center"
                   >
                     View Property Details
                   </div>
@@ -355,7 +487,7 @@ i<!DOCTYPE html>
                 <!-- location hotel -->
                 <div class="flex flex-col gap-4 2xl:gap-5 items-start">
                   <div
-                    class="text-xs sm:text-sm 2xl:text-lg font-medium text-[#FFFFFF] border border-[#262626] bg-[#1A1A1A] px-3 py-1.5 rounded-3xl"
+                    class="text-xs 2xl:text-lg font-medium text-[#FFFFFF] border border-[#262626] bg-[#1A1A1A] px-3 py-1.5 rounded-3xl"
                   >
                     Urban Oasis - Life in the Heart of the City
                   </div>
@@ -385,7 +517,7 @@ i<!DOCTYPE html>
                     </p>
                   </div>
                   <div
-                    class="px-5 py-3.5 rounded-lg bg-[#703BF7] font-medium text-xs sm:text-sm text-[#FFFFFF] xl:w-60 text-center"
+                    class="px-5 py-3.5 rounded-lg bg-[#703BF7] font-medium text-xs sm:text-sm text-[#FFFFFF] text-center"
                   >
                     View Property Details
                   </div>
@@ -402,7 +534,7 @@ i<!DOCTYPE html>
                 <!-- location hotel -->
                 <div class="flex flex-col gap-4 2xl:gap-5 items-start">
                   <div
-                    class="text-xs sm:text-sm 2xl:text-lg font-medium text-[#FFFFFF] border border-[#262626] bg-[#1A1A1A] px-3 py-1.5 rounded-3xl"
+                    class="text-xs 2xl:text-lg font-medium text-[#FFFFFF] border border-[#262626] bg-[#1A1A1A] px-3 py-1.5 rounded-3xl"
                   >
                     Countryside Charm - Escape to Nature's Embrace
                   </div>
@@ -432,7 +564,7 @@ i<!DOCTYPE html>
                     </p>
                   </div>
                   <div
-                    class="px-5 py-3.5 rounded-lg bg-[#703BF7] font-medium text-xs sm:text-sm text-[#FFFFFF] xl:w-60 text-center"
+                    class="px-5 py-3.5 rounded-lg bg-[#703BF7] font-medium text-xs sm:text-sm text-[#FFFFFF] text-center"
                   >
                     View Property Details
                   </div>
@@ -449,21 +581,37 @@ i<!DOCTYPE html>
                   </p>
                 </div>
                 <div class="flex gap-2 justify-between items-center">
-                  <img
-                    src="/public/assets/propertypage/left.svg"
-                    alt="left-button"
+                  <svg
                     class="w-11 h-11 border border-[#262626] p-3.5 rounded-full"
-                  />
+                    viewBox="0 0 22 18"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M21.5 9C21.5 9.62132 20.9963 10.125 20.375 10.125L4.41812 10.125L10.6547 16.0641C11.1026 16.4947 11.1166 17.2069 10.6859 17.6548C10.2553 18.1026 9.54312 18.1166 9.09525 17.6859L0.845253 9.81094C0.624664 9.59883 0.5 9.30602 0.5 9C0.5 8.69398 0.624664 8.40117 0.845253 8.18906L9.09525 0.314064C9.54312 -0.116579 10.2553 -0.102615 10.6859 0.345254C11.1166 0.793122 11.1026 1.5053 10.6547 1.93594L4.41812 7.875L20.375 7.875C20.9963 7.875 21.5 8.37868 21.5 9Z"
+                      fill="#808080"
+                    />
+                  </svg>
                   <p
                     class="text-sm sm:text-xl font-medium text-[#999999] xl:hidden"
                   >
                     <span class="text-[#FFFFFF]">01</span> of 60
                   </p>
-                  <img
-                    src="/public/assets/propertypage/right.svg"
-                    alt="right-button"
+                  <svg
                     class="w-11 h-11 border border-[#262626] p-3.5 bg-[#1A1A1A] rounded-full"
-                  />
+                    viewBox="0 0 22 18"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M0.5 9C0.5 8.37868 1.00368 7.875 1.625 7.875L17.5819 7.875L11.3453 1.93593C10.8974 1.50529 10.8834 0.793119 11.3141 0.345249C11.7447 -0.102618 12.4569 -0.116583 12.9047 0.31406L21.1547 8.18906C21.3753 8.40116 21.5 8.69398 21.5 9C21.5 9.30602 21.3753 9.59883 21.1547 9.81093L12.9047 17.6859C12.4569 18.1166 11.7447 18.1026 11.3141 17.6547C10.8834 17.2069 10.8974 16.4947 11.3453 16.0641L17.5819 10.125L1.625 10.125C1.00368 10.125 0.5 9.62132 0.5 9Z"
+                      fill="white"
+                    />
+                  </svg>
                 </div>
               </div>
             </div>
@@ -507,11 +655,13 @@ i<!DOCTYPE html>
                   <p class="font-semibold text-base 2xl:text-xl text-[#FFFFFF]">
                     First Name
                   </p>
-                  <p
-                    class="rounded-lg font-medium text-sm 2xl:text-lg leading-5 border border-[#262626] px-5 py-4 2xl:px-5 2xl:py-6 bg-[#1A1A1A] text-[#999999]"
-                  >
-                    Enter Your Name
-                  </p>
+                  <input
+                    class="outline-none rounded-lg font-medium text-sm 2xl:text-lg leading-5 border border-[#262626] px-5 py-4 2xl:px-5 2xl:py-6 bg-[#1A1A1A] text-[#999999]"
+                    name="message"
+                    id="message"
+                    placeholder="Enter First Name"
+                    class="outline-none bg-[#1A1A1A] w-full"
+                  />
                 </div>
                 <!-- second -->
                 <div
@@ -520,11 +670,13 @@ i<!DOCTYPE html>
                   <p class="font-semibold text-base 2xl:text-xl text-[#FFFFFF]">
                     Last Name
                   </p>
-                  <p
-                    class="rounded-lg font-medium text-sm 2xl:text-lg leading-5 border border-[#262626] px-5 py-4 2xl:px-5 2xl:py-6 bg-[#1A1A1A] text-[#999999]"
-                  >
-                    Enter Your Last Name
-                  </p>
+                  <input
+                    class="outline-none rounded-lg font-medium text-sm 2xl:text-lg leading-5 border border-[#262626] px-5 py-4 2xl:px-5 2xl:py-6 bg-[#1A1A1A] text-[#999999]"
+                    name="message"
+                    id="message"
+                    placeholder="Enter Last Number"
+                    class="outline-none bg-[#1A1A1A] w-full"
+                  />
                 </div>
                 <!-- third -->
                 <div
@@ -533,11 +685,13 @@ i<!DOCTYPE html>
                   <p class="font-semibold text-base 2xl:text-xl text-[#FFFFFF]">
                     Email
                   </p>
-                  <p
-                    class="rounded-lg font-medium text-sm 2xl:text-lg leading-5 border border-[#262626] px-5 py-4 2xl:px-5 2xl:py-6 bg-[#1A1A1A] text-[#999999]"
-                  >
-                    Enter Your Email
-                  </p>
+                  <input
+                    class="outline-none rounded-lg font-medium text-sm 2xl:text-lg leading-5 border border-[#262626] px-5 py-4 2xl:px-5 2xl:py-6 bg-[#1A1A1A] text-[#999999]"
+                    name="message"
+                    id="message"
+                    placeholder="Enter Your Email"
+                    class="outline-none bg-[#1A1A1A] w-full"
+                  />
                 </div>
                 <!-- fourth -->
                 <div
@@ -546,11 +700,13 @@ i<!DOCTYPE html>
                   <p class="font-semibold text-base 2xl:text-xl text-[#FFFFFF]">
                     Phone
                   </p>
-                  <p
-                    class="rounded-lg font-medium text-sm 2xl:text-lg leading-5 border border-[#262626] px-5 py-4 2xl:px-5 2xl:py-6 bg-[#1A1A1A] text-[#999999]"
-                  >
-                    Enter Your Phone Number
-                  </p>
+                  <input
+                    class="outline-none rounded-lg font-medium text-sm 2xl:text-lg leading-5 border border-[#262626] px-5 py-4 2xl:px-5 2xl:py-6 bg-[#1A1A1A] text-[#999999]"
+                    name="message"
+                    id="message"
+                    placeholder="Enter Phone Number"
+                    class="outline-none bg-[#1A1A1A] w-full"
+                  />
                 </div>
                 <!-- fifht -->
                 <div
@@ -560,15 +716,29 @@ i<!DOCTYPE html>
                     Preferred Location
                   </p>
                   <div
-                    class="flex justify-between items-center gap-3 rounded-lg font-medium text-sm 2xl:text-lg leading-5 border border-[#262626] px-5 py-4 2xl:px-5 2xl:py-6 bg-[#1A1A1A] text-[#999999]"
+                    class="flex items-center gap-3 rounded-lg font-medium text-sm 2xl:text-lg leading-5 border border-[#262626] px-5 py-4 2xl:px-5 2xl:py-6 bg-[#1A1A1A] text-[#999999]"
                   >
-                    <p>Select Location</p>
-                    <a href="#">
-                      <img
-                        src="/public/assets/propertypage/arrow-bottom.svg"
-                        alt="bottom"
+                    <input
+                      name="message"
+                      id="message"
+                      placeholder="Select Location"
+                      class="outline-none bg-[#1A1A1A] w-full"
+                    />
+                    <svg
+                      width="18"
+                      height="10"
+                      viewBox="0 0 18 10"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M16.7002 1.25L9.2002 8.75L1.7002 1.25"
+                        stroke="white"
+                        stroke-width="1.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
                       />
-                    </a>
+                    </svg>
                   </div>
                 </div>
                 <!-- sixth -->
@@ -581,13 +751,27 @@ i<!DOCTYPE html>
                   <div
                     class="flex justify-between items-center gap-3 rounded-lg font-medium text-sm 2xl:text-lg leading-5 border border-[#262626] px-5 py-4 2xl:px-5 2xl:py-6 bg-[#1A1A1A] text-[#999999]"
                   >
-                    <p>Select Property Type</p>
-                    <a href="#">
-                      <img
-                        src="/public/assets/propertypage/arrow-bottom.svg"
-                        alt="bottom"
+                    <input
+                      name="message"
+                      id="message"
+                      placeholder="Select Property Type"
+                      class="outline-none bg-[#1A1A1A] w-full"
+                    />
+                    <svg
+                      width="18"
+                      height="10"
+                      viewBox="0 0 18 10"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M16.7002 1.25L9.2002 8.75L1.7002 1.25"
+                        stroke="white"
+                        stroke-width="1.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
                       />
-                    </a>
+                    </svg>
                   </div>
                 </div>
                 <!-- seventh -->
@@ -598,15 +782,29 @@ i<!DOCTYPE html>
                     No. of Bathrooms
                   </p>
                   <div
-                    class="flex justify-between items-center gap-3 rounded-lg font-medium text-sm 2xl:text-lg leading-5 border border-[#262626] px-5 py-4 2xl:px-5 2xl:py-6 bg-[#1A1A1A] text-[#999999]"
+                    class="flex items-center gap-3 rounded-lg font-medium text-sm 2xl:text-lg leading-5 border border-[#262626] px-5 py-4 2xl:px-5 2xl:py-6 bg-[#1A1A1A] text-[#999999]"
                   >
-                    <p>Select no. of Bedrooms</p>
-                    <a href="#">
-                      <img
-                        src="/public/assets/propertypage/arrow-bottom.svg"
-                        alt="bottom"
+                    <input
+                      name="message"
+                      id="message"
+                      placeholder="Select no. of Bedrooms"
+                      class="outline-none bg-[#1A1A1A] w-full"
+                    />
+                    <svg
+                      width="18"
+                      height="10"
+                      viewBox="0 0 18 10"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M16.7002 1.25L9.2002 8.75L1.7002 1.25"
+                        stroke="white"
+                        stroke-width="1.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
                       />
-                    </a>
+                    </svg>
                   </div>
                 </div>
                 <!-- eight -->
@@ -617,15 +815,29 @@ i<!DOCTYPE html>
                     No. of Bedrooms
                   </p>
                   <div
-                    class="flex justify-between items-center gap-3 rounded-lg font-medium text-sm 2xl:text-lg leading-5 border border-[#262626] px-5 py-4 2xl:px-5 2xl:py-6 bg-[#1A1A1A] text-[#999999]"
+                    class="flex items-center gap-3 rounded-lg font-medium text-sm 2xl:text-lg leading-5 border border-[#262626] px-5 py-4 2xl:px-5 2xl:py-6 bg-[#1A1A1A] text-[#999999]"
                   >
-                    <p>Select no. of Bedrooms</p>
-                    <a href="#">
-                      <img
-                        src="/public/assets/propertypage/arrow-bottom.svg"
-                        alt="bottom"
+                    <input
+                      name="message"
+                      id="message"
+                      placeholder="Select no. of Bedrooms"
+                      class="outline-none bg-[#1A1A1A] w-full"
+                    />
+                    <svg
+                      width="18"
+                      height="10"
+                      viewBox="0 0 18 10"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M16.7002 1.25L9.2002 8.75L1.7002 1.25"
+                        stroke="white"
+                        stroke-width="1.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
                       />
-                    </a>
+                    </svg>
                   </div>
                 </div>
                 <!-- nine -->
@@ -636,13 +848,13 @@ i<!DOCTYPE html>
                     Budget
                   </p>
                   <div
-                    class="grid grid-cols-12 gap-3 rounded-lg font-medium text-sm 2xl:text-lg leading-5 border border-[#262626] px-5 py-4 2xl:px-5 2xl:py-6 bg-[#1A1A1A] text-[#999999]"
+                    class="flex items-center gap-3 rounded-lg font-medium text-sm 2xl:text-lg leading-5 border border-[#262626] px-5 py-4 2xl:px-5 2xl:py-6 bg-[#1A1A1A] text-[#999999]"
                   >
                     <input
                       name="message"
                       id="message"
                       placeholder="Select Budget"
-                      class="outline-none bg-[#1A1A1A] col-span-11 w-full"
+                      class="outline-none bg-[#1A1A1A] w-full"
                     />
                     <svg
                       width="18"
@@ -650,7 +862,6 @@ i<!DOCTYPE html>
                       viewBox="0 0 18 10"
                       fill="none"
                       xmlns="http://www.w3.org/2000/svg"
-                      class="col-span-1 place-self-center justify-self-end"
                     >
                       <path
                         d="M16.7002 1.25L9.2002 8.75L1.7002 1.25"
@@ -674,11 +885,9 @@ i<!DOCTYPE html>
                     class="grid grid-flow-row sm:grid-cols-2 col-span-2 gap-4"
                   >
                     <div
-                      class="grid grid-cols-12 gap-1.5 2xl:gap-3 items-center rounded-lg col-span-1 font-medium text-sm 2xl:text-lg leading-5 border border-[#262626] px-5 py-4 2xl:px-5 2xl:py-6 bg-[#1A1A1A] text-[#999999]"
+                      class="flex gap-1.5 2xl:gap-3 items-center rounded-lg col-span-1 font-medium text-sm 2xl:text-lg leading-5 border border-[#262626] px-5 py-4 2xl:px-5 2xl:py-6 bg-[#1A1A1A] text-[#999999]"
                     >
-                      <div
-                        class="flex items-center gap-1.5 2xl:gap-3 col-span-11"
-                      >
+                      <div class="flex items-center w-full gap-1.5 2xl:gap-3">
                         <svg
                           width="25"
                           height="24"
@@ -701,7 +910,7 @@ i<!DOCTYPE html>
                         />
                       </div>
                       <svg
-                        class="col-span-1 place-self-center justify-self-end"
+                        class="place-self-center justify-self-end"
                         width="17"
                         height="16"
                         viewBox="0 0 17 16"
@@ -712,11 +921,9 @@ i<!DOCTYPE html>
                       </svg>
                     </div>
                     <div
-                      class="grid grid-cols-12 gap-1.5 2xl:gap-3 items-center rounded-lg col-span-1 font-medium text-sm 2xl:text-lg leading-5 border border-[#262626] px-5 py-4 2xl:px-5 2xl:py-6 bg-[#1A1A1A] text-[#999999]"
+                      class="flex gap-1.5 2xl:gap-3 items-center rounded-lg col-span-1 font-medium text-sm 2xl:text-lg leading-5 border border-[#262626] px-5 py-4 2xl:px-5 2xl:py-6 bg-[#1A1A1A] text-[#999999]"
                     >
-                      <div
-                        class="flex items-center gap-1.5 2xl:gap-3 col-span-11"
-                      >
+                      <div class="flex items-center gap-1.5 2xl:gap-3 w-full">
                         <svg
                           width="25"
                           height="24"
@@ -741,7 +948,7 @@ i<!DOCTYPE html>
                         />
                       </div>
                       <svg
-                        class="col-span-1 place-self-center justify-self-end"
+                        class="place-self-center justify-self-end"
                         width="16"
                         height="16"
                         viewBox="0 0 16 16"
@@ -809,24 +1016,24 @@ i<!DOCTYPE html>
             <div class="relative">
               <div>
                 <img
-                  src="/public/assets/homepage/footer-bg-for-small-devices.png"
+                  src="/public/assets/propertypage/footer-bg-for-small-devices.png"
                   alt="footer-bg-img-small-devices"
                   class="inline-block sm:hidden"
                 />
                 <img
-                  src="/public/assets/homepage/footer-bg-abstraction-left.png"
+                  src="/public/assets/propertypage/footer-bg-abstraction-left.png"
                   alt="footer-left-for-large-screens"
                   class="hidden sm:inline-block"
                 />
               </div>
               <div class="absolute right-0 bottom-0">
                 <img
-                  src="/public/assets/homepage/footer-bg-for-small-devices-right.png"
+                  src="/public/assets/propertypage/footer-bg-for-small-devices-right.png"
                   alt="small-devices-responsive-images"
                   class="inline-block sm:hidden"
                 />
                 <img
-                  src="/public/assets/homepage/footer-bg-abstraction-right.png"
+                  src="/public/assets/propertypage/footer-bg-abstraction-right.png"
                   alt=""
                   class="hidden sm:inline-block"
                 />
