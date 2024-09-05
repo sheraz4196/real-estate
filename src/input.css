@@ -73,12 +73,24 @@
   z-index: -1;
 }
 
+.bg-linear-gradient {
+  background: linear-gradient(95.93deg, #262626 -14.82%, rgba(38, 38, 38, 0) 40.46%);
+}
+
+.bg-linear-for-details {
+  background: linear-gradient(90deg, #1A1A1A 0%, rgba(26, 26, 26, 0) 100%);
+}
+
 .border-card-left {
   border-left: 1px solid rgba(112, 59, 247, 1);
 }
 
 .border-left {
   border-left: 1px solid rgba(38, 38, 38, 1);
+}
+
+.border-right {
+  border-right: 1px solid rgba(38, 38, 38, 1);
 }
 
 .border-color {
@@ -106,6 +118,10 @@
   outline: 4px solid rgba(26, 26, 26, 1);
 }
 
+.border-outline-two {
+  outline: 8px solid rgba(26, 26, 26, 1);
+}
+
 .h-boxes {
   height: 80%;
 }
@@ -119,6 +135,9 @@
   border-radius: 100px;
 }
 
+.color {
+  border-color: rgba(38, 38, 38, 1);
+}
 
 .btn-bg-color {
   background-color: rgba(112, 59, 247, 1);
