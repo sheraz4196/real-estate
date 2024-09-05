@@ -990,7 +990,7 @@ video {
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
 }
 
-.bg-img-for-header {
+.bg-header {
   background-image: url('./assets/homepage/abstract-design.png');
 }
 

@@ -15,7 +15,7 @@ module.exports = {
           "linear-gradient(95.93deg, #262626 -14.82%, rgba(38, 38, 38, 0) 40.46%)",
       },
       backgroundImage: {
-        "img-for-header": "url('./assets/homepage/abstract-design.png')",
+        header: "url('./assets/homepage/abstract-design.png')",
       },
       backgroundColor: {
         "header-bg": "rgba(26, 26, 26, 1)",
