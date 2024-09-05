@@ -928,6 +928,11 @@ video {
   border-width: 1px;
 }
 
+.border-y {
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+}
+
 .border-b {
   border-bottom-width: 1px;
 }
@@ -948,14 +953,14 @@ video {
   border-style: solid;
 }
 
-.border-\[\#262626\] {
-  --tw-border-opacity: 1;
-  border-color: rgb(38 38 38 / var(--tw-border-opacity));
-}
-
 .border-\[\#703BF7\] {
   --tw-border-opacity: 1;
   border-color: rgb(112 59 247 / var(--tw-border-opacity));
+}
+
+.border-dark-border {
+  --tw-border-opacity: 1;
+  border-color: rgb(38 38 38 / var(--tw-border-opacity));
 }
 
 .border-b-\[\#262626\] {
@@ -968,18 +973,14 @@ video {
   background-color: rgb(20 20 20 / var(--tw-bg-opacity));
 }
 
-.bg-\[\#1A1A1A\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(26 26 26 / var(--tw-bg-opacity));
-}
-
 .bg-\[\#703BF7\] {
   --tw-bg-opacity: 1;
   background-color: rgb(112 59 247 / var(--tw-bg-opacity));
 }
 
-.bg-header-bg {
-  background-color: rgba(26, 26, 26, 1);
+.bg-custom-dark {
+  --tw-bg-opacity: 1;
+  background-color: rgb(26 26 26 / var(--tw-bg-opacity));
 }
 
 .bg-slate-400\/40 {
@@ -992,18 +993,6 @@ video {
 
 .bg-header {
   background-image: url('./assets/homepage/abstract-design.png');
-}
-
-.bg-cover {
-  background-size: cover;
-}
-
-.bg-center {
-  background-position: center;
-}
-
-.bg-no-repeat {
-  background-repeat: no-repeat;
 }
 
 .p-1 {
@@ -1163,10 +1152,6 @@ video {
   line-height: 2.25rem;
 }
 
-.text-\[10px\] {
-  font-size: 10px;
-}
-
 .text-base {
   font-size: 1rem;
   line-height: 1.5rem;
@@ -1190,6 +1175,10 @@ video {
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
+}
+
+.text-xs-10 {
+  font-size: 10px;
 }
 
 .font-bold {
@@ -1221,14 +1210,14 @@ video {
   color: rgb(153 153 153 / var(--tw-text-opacity));
 }
 
-.text-\[\#FFFFFF\] {
+.text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.text-white {
+.text-custom-gray {
   --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
+  color: rgb(153 153 153 / var(--tw-text-opacity));
 }
 
 .underline {
@@ -1260,7 +1249,7 @@ video {
   outline-style: solid;
 }
 
-.outline-\[4px\] {
+.outline-4 {
   outline-width: 4px;
 }
 

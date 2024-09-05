@@ -3,8 +3,17 @@ module.exports = {
   content: ["./*.html", "./src/*.html"],
   theme: {
     extend: {
+      fontSize: {
+        "xs-10": "10px", // Custom class for 10px font size
+      },
       fontFamily: {
         urbanist: ["Urbanist", "sans-serif"],
+      },
+      textColor: {
+        "custom-gray": "#999999", // Custom text color for #999999
+      },
+      borderColor: {
+        "dark-border": "#262626", // Custom class for the #262626 border color
       },
       backgroundImage: {
         "linear-colors":
@@ -14,20 +23,11 @@ module.exports = {
         "linear-gradient":
           "linear-gradient(95.93deg, #262626 -14.82%, rgba(38, 38, 38, 0) 40.46%)",
       },
+      backgroundColor: {
+        "custom-dark": "#1A1A1A", // Custom background color
+      },
       backgroundImage: {
         header: "url('./assets/homepage/abstract-design.png')",
-      },
-      backgroundColor: {
-        "header-bg": "rgba(26, 26, 26, 1)",
-      },
-      backgroundSize: {
-        cover: "cover",
-      },
-      backgroundPosition: {
-        center: "center",
-      },
-      backgroundRepeat: {
-        "no-repeat": "no-repeat",
       },
     },
   },
