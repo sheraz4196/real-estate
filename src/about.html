@@ -1024,17 +1024,16 @@
           class="px-3 sm:px-8 xl:px-10 2xl:px-20 flex flex-col lg:flex-row gap-12 xl:gap-28 2xl:gap-28"
         >
           <!-- for logo and email bar -->
-          <div class="grid sm:flex flex-col sm:items-start gap-6">
-            <!-- logo -->
+          <div class="grid lg:flex flex-col items-start gap-6">
             <img
               src="/public/assets/propertypage/main-logo.png"
               alt="main-logo"
             />
             <!-- mail bar -->
             <div
-              class="flex items-center gap-2 justify-between rounded-lg bg-[#141414] border border-dark-border py-3 px-5"
+              class="grid grid-flow-col gap-2 rounded-lg bg-[#141414] border border-dark-border py-3 px-5"
             >
-              <div class="flex items-center gap-3">
+              <div class="flex items-center gap-3 col-span-11">
                 <svg
                   width="20"
                   height="18"
@@ -1052,11 +1051,11 @@
                   placeholder="Enter Your Email"
                   name="name"
                   id="name"
-                  class="text-custom-gray bg-[#141414] outline-none"
+                  class="text-custom-gray bg-[#141414] outline-none w-full"
                 />
               </div>
-              <div>
                 <svg
+                class="place-self-end col-span-1"
                   width="26"
                   height="26"
                   viewBox="0 0 26 26"
@@ -1073,7 +1072,6 @@
                     fill="white"
                   />
                 </svg>
-              </div>
             </div>
           </div>
           <!-- for info every section -->
