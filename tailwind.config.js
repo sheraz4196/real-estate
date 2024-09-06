@@ -19,12 +19,12 @@ module.exports = {
         "color-all": "rgba(20, 20, 20, 1)", // Custom background color
       },
       backgroundImage: {
-        "linear-colors":
-          "linear-gradient(134.79deg, rgba(112, 59, 247, 0.5) -0.01%, rgba(112, 59, 247, 0) 9.65%)",
-      },
-      backgroundImage: {
         "linear-gradient":
           "linear-gradient(95.93deg, #262626 -14.82%, rgba(38, 38, 38, 0) 40.46%)",
+      },
+      backgroundImage: {
+        "gradient-bg":
+          "linear-gradient(134.79deg, rgba(112, 59, 247, 0.5) -0.01%, rgba(112, 59, 247, 0) 9.65%)",
       },
       backgroundColor: {
         "custom-dark": "#1A1A1A", // Custom background color

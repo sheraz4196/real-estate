@@ -1277,6 +1277,11 @@ video {
   line-height: 1.25rem;
 }
 
+.text-\[\#999999\] {
+  --tw-text-opacity: 1;
+  color: rgb(153 153 153 / var(--tw-text-opacity));
+}
+
 .text-custom-gray {
   --tw-text-opacity: 1;
   color: rgb(153 153 153 / var(--tw-text-opacity));
@@ -1349,10 +1354,6 @@ video {
   line-height: 1rem;
 }
 
-.text-color {
-  color: rgba(255, 255, 255, 1);
-}
-
 .bg-for-hamburgerbutton {
   background-color: rgba(255, 255, 255, 1);
 }
@@ -1362,28 +1363,6 @@ video {
           text-decoration: underline rgba(255, 255, 255, 0.9);
   text-decoration-thickness: 1px;
 }
-
-.text-underline-color-for-pricing-read-more {
-  -webkit-text-decoration: underline rgba(153, 153, 153, 1);
-          text-decoration: underline rgba(153, 153, 153, 1);
-  text-decoration-thickness: 1px;
-}
-
-.text-color-addition-info {
-  color: rgba(153, 153, 153, 1);
-}
-
-.linear-colors {
-  background: linear-gradient(134.79deg, rgba(112, 59, 247, .5) -0.01%, rgba(112, 59, 247, 0) 9.65%);
-}
-
-.border-star {
-  border: 1px solid rgba(112, 59, 247, 1);
-}
-
-/* .border-button {
-  border: 1px solid rgba(38, 38, 38, 1);
-} */
 
 .border-linear {
   border: 1px solid;
@@ -1395,6 +1374,10 @@ video {
 
 .bg-linear-gradient {
   background: linear-gradient(95.93deg, #262626 -14.82%, rgba(38, 38, 38, 0) 40.46%);
+}
+
+.gradient-bg {
+  background: linear-gradient(134.79deg, rgba(112, 59, 247, 0.5) -0.01%, rgba(112, 59, 247, 0) 9.65%);
 }
 
 .bg-linear-for-details {
