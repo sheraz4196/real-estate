@@ -7,21 +7,9 @@
   font-family: "Urbanist";
 }
 
-.bg-img-for-header {
-  background-image: url(/public/assets/homepage/abstract-design.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-color: rgba(26, 26, 26, 1);
-}
-
-.bg-color-all {
-  background-color: rgba(20, 20, 20, 1);
-}
-
-.bg-for-logo-section {
+/* .bg-custom {
   background: rgba(26, 26, 26, 1);
-}
+} */
 
 .bg-for-second-btn {
   background-color: rgba(112, 59, 247, 1);
@@ -62,9 +50,9 @@
   border: 1px solid rgba(112, 59, 247, 1);
 }
 
-.border-button {
+/* .border-button {
   border: 1px solid rgba(38, 38, 38, 1);
-}
+} */
 
 .border-linear {
   border: 1px solid;
@@ -93,25 +81,8 @@
   border-right: 1px solid rgba(38, 38, 38, 1);
 }
 
-.border-color {
-  border-color: rgba(38, 38, 38, 1);
-}
-
 .border-top {
   border-top: 1px solid rgba(38, 38, 38, 1);
-}
-
-.border-top-bottom {
-  border-top: 1px solid rgba(38, 38, 38, 1);
-  border-bottom: 1px solid rgba(38, 38, 38, 1);
-}
-
-.border-bottom {
-  border-bottom: 1px solid rgba(38, 38, 38, 1);
-}
-
-.border-color {
-  border-color: rgba(38, 38, 38, 1);
 }
 
 .border-outline {
