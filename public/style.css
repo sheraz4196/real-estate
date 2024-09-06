@@ -1353,66 +1353,6 @@ video {
   z-index: -1;
 }
 
-.font-urbanist {
-  font-family: "Urbanist";
-}
-
-.text-size {
-  font-size: 9px;
-  line-height: 1rem;
-}
-
-.text-underline-white {
-  -webkit-text-decoration: underline rgba(255, 255, 255, 0.9);
-          text-decoration: underline rgba(255, 255, 255, 0.9);
-  text-decoration-thickness: 1px;
-}
-
-.border-card-left {
-  border-left: 1px solid rgba(112, 59, 247, 1);
-}
-
-.border-left {
-  border-left: 1px solid rgba(38, 38, 38, 1);
-}
-
-.border-right {
-  border-right: 1px solid rgba(38, 38, 38, 1);
-}
-
-.border-top {
-  border-top: 1px solid rgba(38, 38, 38, 1);
-}
-
-.border-outline {
-  outline: 4px solid rgba(26, 26, 26, 1);
-}
-
-.border-outline-two {
-  outline: 8px solid rgba(26, 26, 26, 1);
-}
-
-.h-boxes {
-  height: 80%;
-}
-
-.rounded {
-  border-radius: 100px;
-}
-
-.color {
-  border-color: rgba(38, 38, 38, 1);
-}
-
-.btn-bg-color {
-  background-color: rgba(112, 59, 247, 1);
-}
-
-.postion-members {
-  position: absolute;
-  bottom: -20px;
-}
-
 @media (min-width: 640px) {
   .sm\:col-span-1 {
     grid-column: span 1 / span 1;
@@ -2055,6 +1995,10 @@ video {
 
   .xl\:gap-8 {
     gap: 2rem;
+  }
+
+  .xl\:place-self-start {
+    place-self: start;
   }
 
   .xl\:rounded-none {
