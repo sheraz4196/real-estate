@@ -628,6 +628,10 @@ video {
   top: 0px;
 }
 
+.z-50 {
+  z-index: 50;
+}
+
 .col-span-1 {
   grid-column: span 1 / span 1;
 }
@@ -646,6 +650,10 @@ video {
 
 .col-span-6 {
   grid-column: span 6 / span 6;
+}
+
+.col-span-4 {
+  grid-column: span 4 / span 4;
 }
 
 .row-span-1 {
@@ -788,6 +796,14 @@ video {
   flex: 1 1 0%;
 }
 
+.transform {
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.list-none {
+  list-style-type: none;
+}
+
 .grid-flow-row {
   grid-auto-flow: row;
 }
@@ -830,6 +846,10 @@ video {
 
 .place-content-between {
   place-content: space-between;
+}
+
+.place-items-end {
+  place-items: end;
 }
 
 .place-items-center {
@@ -1007,6 +1027,16 @@ video {
   background-color: rgb(148 163 184 / 0.4);
 }
 
+.bg-\[\#141414\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(20 20 20 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#703BF7\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(112 59 247 / var(--tw-bg-opacity));
+}
+
 .bg-gradient-to-r {
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
 }
@@ -1164,6 +1194,10 @@ video {
   padding-top: 1.25rem;
 }
 
+.pt-3 {
+  padding-top: 0.75rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -1227,18 +1261,50 @@ video {
   line-height: 1.25rem;
 }
 
+.leading-4 {
+  line-height: 1rem;
+}
+
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.underline {
+  text-decoration-line: underline;
 }
 
 .no-underline {
   text-decoration-line: none;
 }
 
+.decoration-gray-600 {
+  text-decoration-color: #4b5563;
+}
+
+.decoration-white\/90 {
+  text-decoration-color: rgb(255 255 255 / 0.9);
+}
+
+.decoration-1 {
+  text-decoration-thickness: 1px;
+}
+
 .outline-none {
   outline: 2px solid transparent;
   outline-offset: 2px;
+}
+
+.outline {
+  outline-style: solid;
+}
+
+.outline-4 {
+  outline-width: 4px;
+}
+
+.outline-\[\#1a1a1a\] {
+  outline-color: #1a1a1a;
 }
 
 .filter {
@@ -1683,6 +1749,10 @@ video {
   .md\:flex-row {
     flex-direction: row;
   }
+
+  .md\:pl-3 {
+    padding-left: 0.75rem;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -2007,6 +2077,10 @@ video {
 
   .xl\:gap-8 {
     gap: 2rem;
+  }
+
+  .xl\:gap-12 {
+    gap: 3rem;
   }
 
   .xl\:rounded-none {
