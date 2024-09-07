@@ -1057,6 +1057,10 @@ video {
   background-image: linear-gradient(95.93deg, #262626 -14.82%, rgba(38, 38, 38, 0) 40.46%);
 }
 
+.bg-value {
+  background-image: url('./assets/servicespage/Abstract-value.png');
+}
+
 .p-1 {
   padding: 0.25rem;
 }
@@ -1670,6 +1674,10 @@ video {
     flex-direction: row;
   }
 
+  .md\:items-center {
+    align-items: center;
+  }
+
   .md\:pl-3 {
     padding-left: 0.75rem;
   }
@@ -2146,6 +2154,11 @@ video {
 
   .\32xl\:p-8 {
     padding: 2rem;
+  }
+
+  .\32xl\:px-10 {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
   }
 
   .\32xl\:px-11 {
