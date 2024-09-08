@@ -28,6 +28,7 @@ module.exports = {
       backgroundColor: {
         "color-all": "rgba(20, 20, 20, 1)", // Custom background color
         "custom-dark": "#1A1A1A", // Custom background color
+        "custom-purple": "#703BF7",
       },
     },
   },
